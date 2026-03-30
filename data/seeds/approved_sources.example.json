@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "name": "Example Threat Report Feed",
+      "kind": "rss",
+      "url": "https://example.org/security/feed.xml",
+      "source_type": "threat_report",
+      "allowed_domains": ["example.org"]
+    },
+    {
+      "name": "Example News Article List",
+      "kind": "article_list",
+      "url": "https://example.com/ai-harms",
+      "source_type": "news",
+      "allowed_domains": ["example.com"]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+url,source_name,status,fetched_at,http_status,raw_path,error
+file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/fraudgpt_article.html,Demo FraudGPT Article,ok,2026-03-30T14:06:52.171820+00:00,200,/Users/shivanshsahni/Downloads/Personal/NSRI/Evil AI Web Scraper/data/raw/fabb2f0df1dafdeb.raw,
+file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/fraudgpt_followup.html,Demo FraudGPT Follow Up,ok,2026-03-30T14:06:53.181886+00:00,200,/Users/shivanshsahni/Downloads/Personal/NSRI/Evil AI Web Scraper/data/raw/232c8e731215adec.raw,
+file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/clearview_article.html,Demo Clearview Article,ok,2026-03-30T14:06:54.188716+00:00,200,/Users/shivanshsahni/Downloads/Personal/NSRI/Evil AI Web Scraper/data/raw/3996520925b4089e.raw,

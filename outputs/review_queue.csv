@@ -1,0 +1,4 @@
+review_id,reason,severity,entity_name,source_url,case_id,details,suggested_code
+3e90ca9da3713c51,multi_category_ambiguity,medium,FraudGPT,file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/fraudgpt_article.html,55b6e1de1ca87c91,Competing codes: 2A.,4A
+d0b8cdd3183b3972,multi_category_ambiguity,medium,FraudGPT,file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/fraudgpt_followup.html,a68db79ba6ce6e44,Competing codes: 2A.,4A
+c3337ca3fac6f137,low_confidence_classification,medium,Clearview AI,file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/clearview_article.html,1899a95507c37038,Classification confidence is 0.47.,Not included

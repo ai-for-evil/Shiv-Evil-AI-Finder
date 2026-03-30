@@ -1,0 +1,222 @@
+[
+  {
+    "code": "1A",
+    "subgroup_name": "Automated Disinformation Systems",
+    "major_group": "Information and Perception Manipulation",
+    "definition": "AI systems that generate or amplify false or misleading information at scale.",
+    "criteria": [
+      "",
+      "Content is intentionally fabricated or misleading",
+      "Automation significantly increases distribution capacity",
+      "Designed to influence public opinion, elections, or social stability",
+      "",
+      ""
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "1B",
+    "subgroup_name": "Synthetic Media Deception",
+    "major_group": "Information and Perception Manipulation",
+    "definition": "AI systems that produce realistic fake audio, video, images, or documents.",
+    "criteria": [
+      "",
+      "Impersonation without consent",
+      "",
+      "High realism intended to deceive"
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "1C",
+    "subgroup_name": "Narrative Amplification Engines",
+    "major_group": "Information and Perception Manipulation",
+    "definition": "Algorithms optimized to maximize outrage, division, or polarization.",
+    "criteria": [
+      "",
+      "Objective function prioritizes emotional intensity over accuracy",
+      "",
+      "Evidence of increased ideological clustering or extremity"
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "2A",
+    "subgroup_name": "Predatory Targeting Systems",
+    "major_group": "Exploitation and Manipulation",
+    "definition": "AI that identifies and exploits vulnerable individuals (def. of vulnerable must be decided).",
+    "criteria": [
+      "Behavioral profiling used for extraction (possible biased datasets)",
+      "Adaptive manipulation strategies",
+      "",
+      ""
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "2B",
+    "subgroup_name": "Addiction Optimization Systems (Likely a gray area that may be removed from guidelines)",
+    "major_group": "Exploitation and Manipulation",
+    "definition": "Recommender systems designed to maximize compulsive engagement.",
+    "criteria": [
+      "",
+      "Optimization for time spent without regard for well-being",
+      "",
+      "Escalation toward more extreme or stimulating content",
+      "",
+      "Reinforcement loop design"
+    ],
+    "gray_area": true,
+    "confidence_notes": "Addiction Optimization Systems (Likely a gray area that may be removed from guidelines)"
+  },
+  {
+    "code": "2C",
+    "subgroup_name": "Financial Extraction Algorithms",
+    "major_group": "Exploitation and Manipulation",
+    "definition": "AI systems used to maximize debt, fees, or economic dependency.",
+    "criteria": [
+      "",
+      "Dynamic pricing targeting specific groups",
+      "",
+      "Intentional differences in provided information",
+      "",
+      "Optimization for maximum profit extraction at the expense of targeted populations"
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "3A",
+    "subgroup_name": "Mass Surveillance Systems",
+    "major_group": "Surveillance and Control",
+    "definition": "AI used for large-scale monitoring without consent.",
+    "criteria": [
+      "",
+      "Biometric or behavioral tracking at population scale",
+      "",
+      "Lack of transparency or oversight",
+      "",
+      "Data aggregation for control purposes"
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "3B",
+    "subgroup_name": "Predictive Suppression Systems",
+    "major_group": "Surveillance and Control",
+    "definition": "AI used to predict and suppress dissent or behavior.",
+    "criteria": [
+      "",
+      "Automated scoring and profiling tied to penalties or restrictions of freedoms",
+      "",
+      "Deployment in political or coercive contexts"
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "3C",
+    "subgroup_name": "Social Scoring Mechanisms",
+    "major_group": "Surveillance and Control",
+    "definition": "Systems that assign behavioral or loyalty scores affecting access to services.",
+    "criteria": [
+      ""
+    ],
+    "gray_area": true,
+    "confidence_notes": "(Criteria Currently Undecided)"
+  },
+  {
+    "code": "4A",
+    "subgroup_name": "Automated Cyberattack Tools",
+    "major_group": "Cyber and Infrastructure Harm",
+    "definition": "AI systems that identify and exploit digital vulnerabilities.",
+    "criteria": [
+      "Automated vulnerability scanning and exploitation",
+      "Designed for unauthorized system access",
+      "Scalable attack capacity",
+      "",
+      "",
+      ""
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "4B",
+    "subgroup_name": "Infrastructure Disruption Systems",
+    "major_group": "Cyber and Infrastructure Harm",
+    "definition": "AI capable of targeting power grids, hospitals, or transportation systems.",
+    "criteria": [
+      "",
+      "Ability to interfere with critical services",
+      "",
+      "Potential for large-scale societal disruption (subjective interpretation)",
+      "",
+      "Limited reversibility of impact (hard to undo)"
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "4C",
+    "subgroup_name": "Autonomous Weaponization",
+    "major_group": "Cyber and Infrastructure Harm",
+    "definition": "AI used for targeting, coordination, or deployment of physical force.",
+    "criteria": [
+      "",
+      "Lethal or destructive capacity",
+      "",
+      "Reduced human oversight",
+      "",
+      "Automated target selection"
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  },
+  {
+    "code": "5A",
+    "subgroup_name": "Metric Gaming Systems",
+    "major_group": "Institutional and Structural Manipulation",
+    "definition": "AI designed to improve reported performance while hurting real outcomes and consumers.",
+    "criteria": [
+      ""
+    ],
+    "gray_area": true,
+    "confidence_notes": "(Criteria Currently Undecided)"
+  },
+  {
+    "code": "5B",
+    "subgroup_name": "Market Manipulation Systems (Likely a gray area that may be removed from guidelines)",
+    "major_group": "Institutional and Structural Manipulation",
+    "definition": "AI used to distort financial markets or extract value unfairly.",
+    "criteria": [
+      "",
+      "Coordinated artificial price movement",
+      "",
+      "Exploiting differences in knowledge"
+    ],
+    "gray_area": true,
+    "confidence_notes": "Market Manipulation Systems (Likely a gray area that may be removed from guidelines)"
+  },
+  {
+    "code": "5C",
+    "subgroup_name": "Accountability Evasion Systems",
+    "major_group": "Institutional and Structural Manipulation",
+    "definition": "AI systems designed to conceal operator identity or decision logic.",
+    "criteria": [
+      "",
+      "Deliberate opacity",
+      "",
+      "Difficult-to-understand responsibility structures",
+      "",
+      "Technical barriers to auditing or reviewing"
+    ],
+    "gray_area": false,
+    "confidence_notes": ""
+  }
+]

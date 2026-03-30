@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "name": "Demo FraudGPT Article",
+      "kind": "url",
+      "url": "file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/fraudgpt_article.html",
+      "source_type": "news",
+      "allowed_domains": []
+    },
+    {
+      "name": "Demo FraudGPT Follow Up",
+      "kind": "url",
+      "url": "file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/fraudgpt_followup.html",
+      "source_type": "threat_report",
+      "allowed_domains": []
+    },
+    {
+      "name": "Demo Clearview Article",
+      "kind": "url",
+      "url": "file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/clearview_article.html",
+      "source_type": "news",
+      "allowed_domains": []
+    }
+  ]
+}
