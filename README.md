@@ -207,6 +207,14 @@ python3 -m src.cli export
 python3 -m src.cli run-all --sources data/seeds/demo_sources.json
 ```
 
+### Continuous Polling
+
+```bash
+python3 -m src.cli watch --sources data/seeds/approved_sources.example.json --interval-seconds 3600
+```
+
+`watch` keeps polling approved sources, skips already seen URLs, rebuilds the review outputs, and writes newly discovered entities to `outputs/new_entity_records.csv`.
+
 ## Demo Run
 
 An offline demo is included:
@@ -223,6 +231,8 @@ The pipeline writes these review-ready files to `outputs/`:
 
 - `entity_records.csv`
 - `entity_records.jsonl`
+- `new_entity_records.csv`
+- `new_entity_records.jsonl`
 - `review_queue.csv`
 - `review_queue.jsonl`
 - `crawl_log.csv`

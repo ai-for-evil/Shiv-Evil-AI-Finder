@@ -21,9 +21,10 @@ def _similarity(left: str, right: str) -> float:
 
 
 class EntityDeduper:
-    def dedupe(self, cases: List[CandidateCase]) -> Tuple[List[EntityRecord], List[ReviewItem]]:
+    def dedupe(self, cases: List[CandidateCase], seed_names: List[str] | None = None) -> Tuple[List[EntityRecord], List[ReviewItem]]:
         entities: List[EntityRecord] = []
         reviews: List[ReviewItem] = []
+        normalized_seed_names = {_normalize_name(name) for name in (seed_names or []) if name}
 
         for case in sorted(cases, key=lambda item: (_normalize_name(item.entity_name), item.source_url)):
             if not case.entity_name:
@@ -66,6 +67,9 @@ class EntityDeduper:
             else:
                 entities.append(self._to_entity(case))
 
+        for entity in entities:
+            aliases = [_normalize_name(entity.entity_name)] + [_normalize_name(alias) for alias in entity.aliases]
+            entity.seed_overlap = any(alias in normalized_seed_names for alias in aliases if alias)
         return entities, reviews
 
     def _find_match(self, case: CandidateCase, entities: List[EntityRecord]):

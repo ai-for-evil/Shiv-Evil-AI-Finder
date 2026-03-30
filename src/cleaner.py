@@ -28,6 +28,10 @@ def extract_text(html: str) -> str:
     except Exception:
         pass
 
+    html = re.sub(r"(?is)<script[^>]*>.*?</script>", " ", html)
+    html = re.sub(r"(?is)<style[^>]*>.*?</style>", " ", html)
+    html = re.sub(r"(?is)<noscript[^>]*>.*?</noscript>", " ", html)
+    html = re.sub(r"(?is)<!--.*?-->", " ", html)
     parser = _TextExtractor()
     parser.feed(html)
     return "\n".join(_dedupe_paragraphs(parser.bits))

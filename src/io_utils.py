@@ -40,10 +40,16 @@ def split_aliases(name: str) -> List[str]:
     if not name:
         return []
     aliases = []
-    for piece in re.split(r"/|\(|\)|,|\|", name):
+    for piece in re.split(r"/|\|", name):
         piece = normalize_whitespace(piece)
         if piece and piece.lower() != name.lower():
             aliases.append(piece)
+
+    for match in re.findall(r"\(([^)]+)\)", name):
+        candidate = normalize_whitespace(match)
+        if re.fullmatch(r"[A-Za-z0-9-]{2,12}", candidate):
+            aliases.append(candidate)
+
     unique = []
     seen = set()
     for alias in [normalize_whitespace(name)] + aliases:

@@ -63,6 +63,8 @@ class SourceDefinition(SchemaMixin):
     allowed_domains: List[str] = field(default_factory=list)
     article_url_patterns: List[str] = field(default_factory=list)
     credibility: str = "high"
+    queries: List[str] = field(default_factory=list)
+    limit_per_query: int = 25
 
 
 @dataclass
@@ -170,6 +172,7 @@ class EntityRecord(SchemaMixin):
     related_case_ids: List[str] = field(default_factory=list)
     review_status: str = "pending_review"
     merge_confidence: float = 1.0
+    seed_overlap: bool = False
 
 
 @dataclass

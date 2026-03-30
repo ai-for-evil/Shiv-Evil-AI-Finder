@@ -15,6 +15,7 @@ def main() -> None:
 
     crawl_parser = subparsers.add_parser("crawl")
     crawl_parser.add_argument("--sources", type=Path, default=None)
+    crawl_parser.add_argument("--fresh", action="store_true")
 
     subparsers.add_parser("clean")
     subparsers.add_parser("classify")
@@ -23,6 +24,13 @@ def main() -> None:
 
     run_all_parser = subparsers.add_parser("run-all")
     run_all_parser.add_argument("--sources", type=Path, default=None)
+    run_all_parser.add_argument("--fresh", action="store_true")
+
+    watch_parser = subparsers.add_parser("watch")
+    watch_parser.add_argument("--sources", type=Path, default=None)
+    watch_parser.add_argument("--interval-seconds", type=int, default=3600)
+    watch_parser.add_argument("--max-cycles", type=int, default=None)
+    watch_parser.add_argument("--fresh-first-cycle", action="store_true")
 
     args = parser.parse_args()
     pipeline = Pipeline()
@@ -30,7 +38,7 @@ def main() -> None:
     if args.command == "seed-load":
         result = pipeline.seed_load()
     elif args.command == "crawl":
-        result = pipeline.crawl(args.sources)
+        result = pipeline.crawl(args.sources, incremental=not args.fresh)
     elif args.command == "clean":
         result = pipeline.clean()
     elif args.command == "classify":
@@ -40,7 +48,14 @@ def main() -> None:
     elif args.command == "export":
         result = pipeline.export()
     elif args.command == "run-all":
-        result = pipeline.run_all(args.sources)
+        result = pipeline.run_all(args.sources, incremental=not args.fresh)
+    elif args.command == "watch":
+        result = pipeline.watch(
+            args.sources,
+            interval_seconds=args.interval_seconds,
+            max_cycles=args.max_cycles,
+            fresh_first_cycle=args.fresh_first_cycle,
+        )
     else:
         raise ValueError(f"Unknown command: {args.command}")
 
