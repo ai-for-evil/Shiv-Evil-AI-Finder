@@ -12,6 +12,7 @@ from typing import List, Tuple
 from src.config import Settings
 from src.io_utils import ensure_dir, stable_hash
 from src.schemas import CrawlLogEntry, FetchedDocument, SourceDefinition
+from src.taxonomy import extract_pdf_text
 
 
 class Crawler:
@@ -38,7 +39,13 @@ class Crawler:
 
             if url.startswith("file://"):
                 path = Path(urllib.parse.unquote(urllib.parse.urlparse(url).path))
-                body = path.read_text(encoding="utf-8")
+                if path.suffix.lower() == ".pdf":
+                    raw_path.write_bytes(path.read_bytes())
+                    body = extract_pdf_text(raw_path)
+                    text_path = self.settings.raw_dir / f"{document_id}.txt"
+                    text_path.write_text(body, encoding="utf-8")
+                else:
+                    body = path.read_text(encoding="utf-8")
                 http_status = 200
             else:
                 request = urllib.request.Request(
@@ -46,23 +53,33 @@ class Crawler:
                     headers={"User-Agent": "EvilAIResearchScraper/1.0"},
                 )
                 with urllib.request.urlopen(request, timeout=30) as response:
-                    body = response.read().decode("utf-8", errors="replace")
+                    payload = response.read()
                     http_status = getattr(response, "status", 200)
+                    content_type = response.headers.get("Content-Type", "")
+                    if "pdf" in content_type.lower() or url.lower().endswith(".pdf") or payload.startswith(b"%PDF"):
+                        raw_path.write_bytes(payload)
+                        body = extract_pdf_text(raw_path)
+                        text_path = self.settings.raw_dir / f"{document_id}.txt"
+                        text_path.write_text(body, encoding="utf-8")
+                    else:
+                        body = payload.decode("utf-8", errors="replace")
             title, publication_date = _extract_basic_metadata(body)
-            raw_path.write_text(body, encoding="utf-8")
-            text_path.write_text(
-                json.dumps(
-                    {
-                        "url": url,
-                        "title": title,
-                        "publication_date": publication_date,
-                        "source_name": source.name,
-                    },
-                    ensure_ascii=True,
-                    indent=2,
-                ),
-                encoding="utf-8",
-            )
+            if not raw_path.exists():
+                raw_path.write_text(body, encoding="utf-8")
+            if text_path.suffix != ".txt":
+                text_path.write_text(
+                    json.dumps(
+                        {
+                            "url": url,
+                            "title": title,
+                            "publication_date": publication_date,
+                            "source_name": source.name,
+                        },
+                        ensure_ascii=True,
+                        indent=2,
+                    ),
+                    encoding="utf-8",
+                )
             time.sleep(self.settings.rate_limit_seconds)
         except Exception as exc:
             status = "error"

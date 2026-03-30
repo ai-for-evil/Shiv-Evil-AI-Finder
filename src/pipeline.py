@@ -106,7 +106,10 @@ class Pipeline:
         for item in raw_documents:
             if item.get("status") != "ok" or not item.get("raw_path"):
                 continue
-            body = Path(item["raw_path"]).read_text(encoding="utf-8")
+            if item.get("text_path", "").endswith(".txt") and Path(item["text_path"]).exists():
+                body = Path(item["text_path"]).read_text(encoding="utf-8")
+            else:
+                body = Path(item["raw_path"]).read_text(encoding="utf-8")
             document = clean_document(_fetched_from_dict(item), body)
             cleaned_docs.append(document.to_dict())
             for chunk in chunk_document(document, self.settings):
