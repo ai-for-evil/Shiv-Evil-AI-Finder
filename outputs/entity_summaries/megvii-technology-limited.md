@@ -2,8 +2,8 @@
 
 - Code: 3A
 - Subgroup: Mass Surveillance Systems
-- Confidence: 0.94
-- Review status: ambiguous
+- Confidence: 0.92
+- Review status: ready_for_review
 
 ## Rationale
 
@@ -11,7 +11,7 @@ Top code 3A from combined rule, prototype, and optional model signals.
 
 ## Evidence
 
-- Dawning Information Industry Co., Ltd. Leon Technology Company Limited Megvii Technology Limited Netposa Technologies Limited SZ DJI Technology Co., Ltd. Xiamen Meiya Pico Information Co., Ltd. TECHNOLOGY USED FOR SURVEILLANCE OF RELIGIOUS OR ETHNIC MINORITY GROUPS Beginning in 2016, Chen Quanguo, the then-newly appointed Communist Party Secretary of the Xinjiang Uyghur Autonomous Region, stepped up security and surveillance measures aimed at the Uyghur population in Xinjiang. Such actions included the installa
+- illance project contracts with the PRC, particularly in parts of the country with sizeable ethnic minority populations. Megvii Technology Limited (Megvii) operates or has operated in the surveillance technology sector of the economy of the PRC and owns or controls, directly or indirectly, Beijing Kuangshi Technology Co., Ltd. (Kuangshi), an entity that operates or has operated in the surveillance technology sector of the economy of the PRC. Kuangshi has developed and created customized software designed to conduct surveillance activities of ethnic minorities,
 
 ## Sources
 

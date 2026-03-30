@@ -2,8 +2,8 @@
 
 - Code: 3A
 - Subgroup: Mass Surveillance Systems
-- Confidence: 0.60
-- Review status: low_confidence
+- Confidence: 0.93
+- Review status: ready_for_review
 
 ## Rationale
 
@@ -11,7 +11,7 @@ Top code 3A from combined rule, prototype, and optional model signals.
 
 ## Evidence
 
-- EnGenius Debuts AI Cloud Surveillance Platform With Natural Language Search The hybrid edge-and-cloud solution adds AI-driven video search, facial recognition and behavioral alerting to existing surveillance systems. Reported by Autonomous Discovery - Cybercrime And Abuse AI
+- EnGenius Debuts AI Cloud Surveillance Platform With Natural Language Search The hybrid edge-and-cloud solution adds AI-driven video search, facial recognition and behavioral alerting to existing surveillance systems. Reported by Autonomous Discovery - Bing News
 
 ## Sources
 

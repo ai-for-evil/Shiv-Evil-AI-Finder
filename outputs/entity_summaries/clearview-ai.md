@@ -1,18 +1,18 @@
 # Clearview AI
 
-- Code: Not included
-- Subgroup: Not included
-- Confidence: 0.47
-- Review status: low_confidence
+- Code: 3A
+- Subgroup: Mass Surveillance Systems
+- Confidence: 0.98
+- Review status: ready_for_review
 
 ## Rationale
 
-Evidence was too weak or ambiguous to assign a taxonomy code confidently.
+Top code 3A from combined rule, prototype, and optional model signals.
 
 ## Evidence
 
-- Clearview AI faces criticism over mass facial recognition Civil-rights groups criticized Clearview AI for large-scale biometric surveillance and identity matching using scraped public images. The article emphasizes rights concerns and lack of consent, but it does not establish that the product was intentionally designed for harmful exploitation as the core product.
+- Clearview AI. Using a growing database of over 30 billion images scraped from social media and other online platforms, Clearview AI provides law enforcement and private entities with the ability to identify individuals through facial recognition software. This technology was also used by U.S federal agencies, including ICE and the FBI, to surveil immigrants, activists, and protesters, often targeting leftist groups and individua
 
 ## Sources
 
-- file:///Users/shivanshsahni/Downloads/Personal/NSRI/Evil%20AI%20Web%20Scraper/data/seeds/demo_articles/clearview_article.html
+- https://misp-galaxy.org/surveillance-vendor/

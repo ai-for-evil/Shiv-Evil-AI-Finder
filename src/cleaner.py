@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 import re
 from html.parser import HTMLParser
 
@@ -24,7 +25,8 @@ def extract_text(html: str) -> str:
 
         extracted = trafilatura.extract(html, include_comments=False, include_tables=False)
         if extracted:
-            return normalize_whitespace(extracted.replace("\n", "\n"))
+            lines = [normalize_whitespace(line) for line in extracted.splitlines() if normalize_whitespace(line)]
+            return "\n\n".join(_dedupe_paragraphs(lines))
     except Exception:
         pass
 
@@ -38,8 +40,12 @@ def extract_text(html: str) -> str:
 
 
 def clean_document(document: FetchedDocument, body: str) -> CleanDocument:
-    text = extract_text(body)
-    paragraphs = _paragraphs(text)
+    if "misp-galaxy.org/surveillance-vendor" in document.url:
+        paragraphs = _extract_misp_vendor_paragraphs(body)
+        text = "\n\n".join(paragraphs)
+    else:
+        text = extract_text(body)
+        paragraphs = _paragraphs(text)
     return CleanDocument(
         document_id=document.document_id,
         source_url=document.url,
@@ -70,3 +76,20 @@ def _dedupe_paragraphs(paragraphs: list[str]) -> list[str]:
         seen.add(key)
         unique.append(paragraph)
     return unique
+
+
+def _extract_misp_vendor_paragraphs(body: str) -> list[str]:
+    paragraphs: list[str] = []
+    pattern = re.compile(r'(?is)<h2 id="[^"]+">(.*?)</h2>\s*<p>(.*?)</p>')
+    for heading_html, paragraph_html in pattern.findall(body):
+        heading = _strip_html_fragment(heading_html)
+        paragraph = _strip_html_fragment(paragraph_html)
+        if not heading or not paragraph:
+            continue
+        paragraphs.append(f"{heading}. {paragraph}")
+    return _dedupe_paragraphs(paragraphs)
+
+
+def _strip_html_fragment(fragment: str) -> str:
+    fragment = re.sub(r"(?is)<[^>]+>", " ", fragment)
+    return normalize_whitespace(html.unescape(fragment))

@@ -2,8 +2,8 @@
 
 - Code: 1B
 - Subgroup: Synthetic Media Deception
-- Confidence: 0.92
-- Review status: ambiguous
+- Confidence: 0.84
+- Review status: ready_for_review
 
 ## Rationale
 

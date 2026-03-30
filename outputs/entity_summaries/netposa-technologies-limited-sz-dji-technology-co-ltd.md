@@ -1,0 +1,18 @@
+# Netposa Technologies Limited SZ DJI Technology Co., Ltd
+
+- Code: 3A
+- Subgroup: Mass Surveillance Systems
+- Confidence: 0.93
+- Review status: ready_for_review
+
+## Rationale
+
+Top code 3A from combined rule, prototype, and optional model signals.
+
+## Evidence
+
+- Leon Technology Company Limited Megvii Technology Limited Netposa Technologies Limited SZ DJI Technology Co., Ltd. Xiamen Meiya Pico Information Co., Ltd. TECHNOLOGY USED FOR SURVEILLANCE OF RELIGIOUS OR ETHNIC MINORITY GROUPS Beginning in 2016, Chen Quanguo, the then-newly appointed Communist Party Secretary of the Xinjiang Uyghur Autonomous Region, stepped up security and surveillance measures aimed at the Uyghur population in Xinjiang. Such actions included the installation of thousands of neighborhood police kiosks and ubiq
+
+## Sources
+
+- https://home.treasury.gov/news/press-releases/jy0538

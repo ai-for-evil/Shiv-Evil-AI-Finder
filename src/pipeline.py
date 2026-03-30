@@ -173,12 +173,19 @@ class Pipeline:
         new_entities = read_jsonl(self.settings.processed_dir / "new_entity_records.jsonl")
         novel_entities = read_jsonl(self.settings.processed_dir / "novel_entity_records.jsonl")
         reviews = read_jsonl(self.settings.processed_dir / "review_queue.jsonl")
+        high_confidence_entities = [
+            item
+            for item in novel_entities
+            if _is_high_confidence_entity(item, self.settings.high_confidence_threshold)
+        ]
         write_csv(self.settings.outputs_dir / "entity_records.csv", entities)
         write_jsonl(self.settings.outputs_dir / "entity_records.jsonl", entities)
         write_csv(self.settings.outputs_dir / "new_entity_records.csv", new_entities)
         write_jsonl(self.settings.outputs_dir / "new_entity_records.jsonl", new_entities)
         write_csv(self.settings.outputs_dir / "novel_entity_records.csv", novel_entities)
         write_jsonl(self.settings.outputs_dir / "novel_entity_records.jsonl", novel_entities)
+        write_csv(self.settings.outputs_dir / "high_confidence_entity_records.csv", high_confidence_entities)
+        write_jsonl(self.settings.outputs_dir / "high_confidence_entity_records.jsonl", high_confidence_entities)
         write_csv(self.settings.outputs_dir / "review_queue.csv", reviews)
         write_jsonl(self.settings.outputs_dir / "review_queue.jsonl", reviews)
         write_entity_summaries([_entity_from_dict(item) for item in entities], self.settings.outputs_dir / "entity_summaries")
@@ -186,6 +193,7 @@ class Pipeline:
             "entity_count": len(entities),
             "new_entity_count": len(new_entities),
             "novel_entity_count": len(novel_entities),
+            "high_confidence_entity_count": len(high_confidence_entities),
             "review_count": len(reviews),
         }
 
@@ -295,3 +303,46 @@ def _fetch_or_stub_search_item(settings: Settings, crawler: Crawler, source, ite
             document.publication_date = item.get("publication_date", "")
         return document, log
     return _search_item_to_document(settings, source, item)
+
+
+def _is_high_confidence_entity(item: dict, threshold: float) -> bool:
+    name = (item.get("entity_name") or "").strip()
+    lowered = name.lower()
+    if not name:
+        return False
+    if item.get("review_status") != "ready_for_review":
+        return False
+    if float(item.get("confidence", 0.0)) < threshold:
+        return False
+    if ". " in name:
+        return False
+    if lowered in {
+        "according",
+        "after",
+        "based",
+        "founded",
+        "its",
+        "the",
+        "once",
+        "company",
+        "documents",
+        "one",
+    }:
+        return False
+    if any(
+        phrase in lowered
+        for phrase in [
+            " debuts ",
+            " launches ",
+            " launch ",
+            " deploys ",
+            " identifies ",
+            " sues ",
+            " city attorney",
+            " home ministry",
+            " ministry deploys",
+            " cloud surveillance",
+        ]
+    ):
+        return False
+    return True

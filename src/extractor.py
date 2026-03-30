@@ -48,6 +48,14 @@ class EvidenceExtractor:
             "vice",
             "fbi",
             "interpol",
+            "according",
+            "after",
+            "based",
+            "founded",
+            "its",
+            "the",
+            "israeli",
+            "ai-driven",
         }
         self.blocked_prefixes = (
             "both ",
@@ -232,6 +240,8 @@ class EvidenceExtractor:
         return bool(re.fullmatch(r"[A-Z][A-Za-z0-9.-]{2,}(?:\s+[A-Z][A-Za-z0-9.&-]{2,}){0,4}", value))
 
     def _additional_entities(self, chunk: DocumentChunk, final_code: str) -> List[str]:
+        if chunk.source_type == "research_database":
+            return []
         text = chunk.text
         candidates: List[str] = []
         if final_code in {"1B", "2A", "2C", "3A", "3B", "3C"}:
@@ -287,6 +297,13 @@ class EvidenceExtractor:
                 lowered = value.lower()
         if lowered.startswith("the ") and self._looks_like_company(value[4:]):
             value = value[4:].strip()
+        if ". " in value:
+            head, tail = value.split(". ", 1)
+            if head and len(head.split()) <= 5:
+                repeated = tail.lower().startswith(head.lower())
+                descriptive_tail = tail.split(" ", 1)[0].lower() in {"the", "a", "an", "israeli", "founded", "based"}
+                if repeated or descriptive_tail:
+                    value = head.strip()
         return value
 
     def _clean_candidate_name(self, value: str, chunk: DocumentChunk) -> str:

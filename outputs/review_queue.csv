@@ -1,49 +1,469 @@
 review_id,reason,severity,entity_name,source_url,case_id,details,suggested_code
-06c5f80d8b6d60e7,possible_duplicate,medium,Ainude,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,81c6283da8d9816a,Possible duplicate of Ai Nudes with similarity 0.86.,1B
-32a8e08a61f996d9,possible_duplicate,medium,PRC. Leon Technology,https://home.treasury.gov/news/press-releases/jy0538,602781bb4c811232,Possible duplicate of Leon Technology with similarity 0.88.,3A
-88c61d49857f8098,possible_duplicate,medium,Undressai,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,eab95456c5dbc059,Possible duplicate of Undress with similarity 0.88.,1B
-a947e5dddd93aff0,possible_duplicate,medium,Undresser,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,9fd9f887323fb02e,Possible duplicate of Undress with similarity 0.88.,1B
-842d706dbe154a2f,possible_duplicate,medium,Undressing,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,645d860b12133145,Possible duplicate of Undressai with similarity 0.84.,1B
-d56783b48bd3f1b8,multi_category_ambiguity,medium,ClothOff,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,c84bc98927fe159f,Competing codes: 2C.,1B
-4d6e6bf775673673,multi_category_ambiguity,medium,Drawnudes,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,0e3c2a9f8055d760,Competing codes: 2C.,1B
-8e85e36302ba4e88,multi_category_ambiguity,medium,Porngen,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,c2983e186ade0104,Competing codes: 2C.,1B
-f2ea4517b6af559c,multi_category_ambiguity,medium,Undresser,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,9fd9f887323fb02e,Competing codes: 2C.,1B
-0572686f1eb00361,multi_category_ambiguity,medium,Undress,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,77df62ff8857dfd6,Competing codes: 2C.,1B
-8fca7af86ac68c51,multi_category_ambiguity,medium,Ai Nudes,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,51491ac05642d976,Competing codes: 2C.,1B
-d7b5c21467b709f4,multi_category_ambiguity,medium,Nudify,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,ed78531a6c8aac02,Competing codes: 2C.,1B
-c7358e55de960e1c,multi_category_ambiguity,medium,Undressing,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,645d860b12133145,Competing codes: 2C.,1B
-a66d3012355e1daa,multi_category_ambiguity,medium,Undressai,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,eab95456c5dbc059,Competing codes: 2C.,1B
-008b06fb6b354ad6,multi_category_ambiguity,medium,Deep Nude,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,a92d8aab49398514,Competing codes: 2C.,1B
-fbf496b63910f5d2,multi_category_ambiguity,medium,Pornx,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,a972950c60cd91e4,Competing codes: 2C.,1B
-2ee544b08d9822ce,multi_category_ambiguity,medium,Deepnude,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,53bf54cc94704407,Competing codes: 2C.,1B
-286aa967662b0700,multi_category_ambiguity,medium,Ainude,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,81c6283da8d9816a,Competing codes: 2C.,1B
-1f9f4fd4f78227ce,multi_category_ambiguity,medium,GG Technology,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,48a07407cd6fc507,Competing codes: 2C.,1B
-4a6159c094d45394,multi_category_ambiguity,medium,CloudWalk,https://home.treasury.gov/news/press-releases/jy0538,d64c487f629bfd8f,"Competing codes: 3B, 2C.",3A
-fdbe936b4f4c002c,multi_category_ambiguity,medium,Yield Curve Economic Policy Reports Social Security,https://home.treasury.gov/news/press-releases/jy0538,7b04ffde320c00b5,"Competing codes: 3B, 2C.",3A
-720c14af316e855f,multi_category_ambiguity,medium,"Cloudwalk Technology Co., Ltd",https://home.treasury.gov/news/press-releases/jy0538,58a06a88d24ce33e,"Competing codes: 3B, 2C.",3A
-1f55d4619699b45c,multi_category_ambiguity,medium,Ltd. Leon Technology Company Limited Megvii Technology,https://home.treasury.gov/news/press-releases/jy0538,8b1b31b0b82696fb,"Competing codes: 3B, 2C.",3A
-2d03ab678e0f686f,multi_category_ambiguity,medium,Leon Technology Company Limited,https://home.treasury.gov/news/press-releases/jy0538,54ed3fb9a66ab7f3,"Competing codes: 3B, 2C.",3A
-de2f27f803a4f765,multi_category_ambiguity,medium,Leon Technology,https://home.treasury.gov/news/press-releases/jy0538,2440a4827f051c52,"Competing codes: 3B, 2C.",3A
-6bd698509664739b,multi_category_ambiguity,medium,PRC. Leon Technology,https://home.treasury.gov/news/press-releases/jy0538,602781bb4c811232,"Competing codes: 3B, 2C.",3A
-106aa38fb2b4205e,multi_category_ambiguity,medium,Xinjiang. Leon Technology,https://home.treasury.gov/news/press-releases/jy0538,f36a67cd01fa8446,"Competing codes: 3B, 2C.",3A
-14ad31db3b89dc1b,multi_category_ambiguity,medium,Megvii Technology Limited,https://home.treasury.gov/news/press-releases/jy0538,35bcb1007e338076,"Competing codes: 3B, 2C.",3A
-7a33cf266377e2a6,multi_category_ambiguity,medium,"Beijing Kuangshi Technology Co., Ltd",https://home.treasury.gov/news/press-releases/jy0538,c3d67875d3b49b94,"Competing codes: 3B, 2C.",3A
-c374cab5b48dcac8,multi_category_ambiguity,medium,Predpol,https://misp-galaxy.org/surveillance-vendor/,c44f0467ffb3c357,"Competing codes: 4A, 3C.",3A
-89516f5a2bb88300,multi_category_ambiguity,medium,Nsogroup,https://misp-galaxy.org/surveillance-vendor/,8ae2f2b5e04088ef,"Competing codes: 4A, 3C.",3A
-d635643aa0ac2e16,multi_category_ambiguity,medium,Mem3nt0,https://misp-galaxy.org/surveillance-vendor/,7d0005616f9bca42,"Competing codes: 4A, 3C.",3A
-786f647418d9b8c7,multi_category_ambiguity,medium,Gammagroup,https://misp-galaxy.org/surveillance-vendor/,2e0b0c338ae1010c,"Competing codes: 4A, 3C.",3A
-078aace722d3defa,multi_category_ambiguity,medium,Gamma International,https://misp-galaxy.org/surveillance-vendor/,d45dc26bcb1aed52,"Competing codes: 4A, 3C.",3A
-2d5b03b94a1a554c,multi_category_ambiguity,medium,Flexispy,https://misp-galaxy.org/surveillance-vendor/,eadc569200dfe8f9,"Competing codes: 4A, 3C.",3A
-c45d15b0bef82f24,multi_category_ambiguity,medium,Bestphonespy,https://misp-galaxy.org/surveillance-vendor/,51d013ed46b233d3,"Competing codes: 4A, 3C.",3A
-bbefc30921ab7504,multi_category_ambiguity,medium,Mspy,https://misp-galaxy.org/surveillance-vendor/,cf2ddb274fe72bdd,"Competing codes: 4A, 3C.",3A
-100769b99232aeb5,multi_category_ambiguity,medium,Highstermobi,https://misp-galaxy.org/surveillance-vendor/,172cdd530c74abaa,"Competing codes: 4A, 3C.",3A
-aa44057212984a7b,multi_category_ambiguity,medium,Mobile Spy,https://misp-galaxy.org/surveillance-vendor/,e22e1e101eea5cc1,"Competing codes: 4A, 3C.",3A
-8bc2d134d80bfc01,multi_category_ambiguity,medium,Hoverwatch,https://misp-galaxy.org/surveillance-vendor/,f6856cf44aea4450,"Competing codes: 4A, 3C.",3A
-68c176a947c4412f,multi_category_ambiguity,medium,Mobistealth,https://misp-galaxy.org/surveillance-vendor/,b232c94f1c7cf81d,"Competing codes: 4A, 3C.",3A
-375336c1743ae357,multi_category_ambiguity,medium,Spyera,https://misp-galaxy.org/surveillance-vendor/,d7fac4cc913f2e32,"Competing codes: 4A, 3C.",3A
-de95e868f51bcb5a,multi_category_ambiguity,medium,Lookout,https://misp-galaxy.org/surveillance-vendor/,55f0f6ed8da2ab52,"Competing codes: 4A, 3C.",3A
-d2d344714c677f03,multi_category_ambiguity,medium,Intelligenceonline,https://misp-galaxy.org/surveillance-vendor/,ab9b2cd10923bbe4,"Competing codes: 4A, 3C.",3A
-48b6c7ede407c19e,multi_category_ambiguity,medium,Interionet,https://misp-galaxy.org/surveillance-vendor/,4fe9d9be6c7724e2,"Competing codes: 4A, 3C.",3A
-ab9d088c6f79d9ad,multi_category_ambiguity,medium,Aqsacom,https://misp-galaxy.org/surveillance-vendor/,d4f7337739aeb153,"Competing codes: 4A, 3C.",3A
-4b39c4ec1a9a3b94,multi_category_ambiguity,medium,Clear Trail,https://misp-galaxy.org/surveillance-vendor/,9fadb2fce48c7111,"Competing codes: 4A, 3C.",3A
-7388a23d1078f39d,multi_category_ambiguity,medium,Business Standard,https://misp-galaxy.org/surveillance-vendor/,f1ce8aa31d446162,"Competing codes: 4A, 3C.",3A
+0e60a6f31395c8ea,missing_entity_name,high,,https://home.treasury.gov/news/press-releases/jy0538,46a5fe15b9ce5cba,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+ecf076176ff6626e,missing_entity_name,high,,https://home.treasury.gov/news/press-releases/jy0538,a998edf9f3ce3a5b,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+9e8d9e510ede3ebd,missing_entity_name,high,,https://home.treasury.gov/news/press-releases/jy0538,a193ae86e5cf8092,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+4dd91610736060d0,missing_entity_name,high,,https://home.treasury.gov/news/press-releases/jy0538,14c3bc199e338752,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+a88ef49c0f88df1c,missing_entity_name,high,,https://home.treasury.gov/news/press-releases/jy0538,eacbba1f85996839,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+883ef422d1aa72bb,missing_entity_name,high,,https://home.treasury.gov/news/press-releases/jy0538,f81449777054ad8f,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+90e4b4489dbdc32b,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,d22c400d87f96a26,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+387637d4bfff00f4,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,d384650f6fced252,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+76938b6f1c3fb7e8,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,3bdcd0895d12a5f1,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+56089c16b71de9c0,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,9f7ac55e16e08d3b,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+06870fec13e504ba,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,db1c2bdefe851dea,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+5bf6e0b5bab1f6b6,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,8a6d4bd62499658c,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+c3658179e9a79616,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,171e6182a630dea3,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+fee8dfe1a937ed25,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,2c8991ea5f9f3ed4,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+dfa56decaed8b52f,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,dde40d5232fd0db9,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+6746c28046049e29,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,898905ed8076fbd8,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+e0f4aacae0a2a6e0,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,b14ac90fd8019582,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+e0ce669dbe842862,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,0a6abfaf550eac7f,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+d0bc577a2981abbb,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,ce0a4b1bd8e0f302,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+fa80454ed9daa84c,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,be2dbfe92862df33,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+7f4cfd5b7c602f3c,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,3689a3c2b10c4995,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+686eabc6ce38a639,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,59051d4a7e4839f3,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+568d8d9961ed5077,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,64b1e9679a0e8974,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+194a7fc50afd800a,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,f42769c8d630fe67,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+bad72ead9079b2fe,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,fe81010c5de69d28,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+c6dbcaa3c24d76e2,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,6339dc65eb004cca,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+5f030ab5abeb643b,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,eb75b39fa4b10161,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+a18e004e46b2954a,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,fc1cd9332a8f14f0,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+06f89a6ebb264f0e,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,0d900f197a6f92a5,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+cf56c4cfb57cd7ba,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,e5fa74dc123198ac,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+f0131a949a27cf4a,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,ce243791cf19e997,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+6db24b7b54c0c01f,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,5710bfcba83082e6,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+6aa1fbba13038f78,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,d6a6c92b5a1f7b83,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+cd74329469f60ddd,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,ee26ab0589fd46b0,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+46a1e247c1562bf1,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,ed8b28d9c68afb7b,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+6cb39424605d093e,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,11dcf6a4e166d747,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+56174e8dad649692,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,1d8d226a591da02b,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+e697f72854a728a1,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,8a526fb26be5adee,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+8652f9b87a6bb48c,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,8e2848fb05be7dc6,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+e3c0482f5e8dfe3a,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,d61fdccb57f2a2f5,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+2619d5d68123ba7c,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,2fe5ed7438e4afcb,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+b744c0a2e53bab3d,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,dc7eabbeb064c17d,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+832a8fc83f8811e6,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,24ce261e18fbaade,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+7aaf6c022f366068,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,84c89baa51350285,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+a64b1ca472d4967f,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,4818f1b5aaed835e,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+9a9facc7204b3999,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,e6e9dc8e12299033,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+f568761cd3418611,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,56fb720ab895cff8,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+f1e330fdc40c3e70,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,874ff0d1b1326058,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+1655a6b762f996cf,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,eff329142bf755b0,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+67352f445ffbe41b,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,4847b04ebbab55dc,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+0b3f0e9e9aaeed54,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,0f54e68da28d4748,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+332238324a13f79d,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,6f3fe05167307fb9,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+4906ddb6555dfb54,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,70b3a010d9a800c4,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+61d2791a06c5320e,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,62224871be6fffec,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+bc2e1e66a607109f,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,aeafc1d0ec5cb422,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+4f9741250846a575,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,283e95b80c233710,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+f2b931c6cecb87c1,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,e20d930ba6ce30f7,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+37cd2eefb0e561ca,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,5ac835db160d87f3,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+9fb0b7595888e43e,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,b8f66459776355d4,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+c63d9c8b0a68bcf9,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,7c9bb51296d7e046,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+558bcb8525c08e53,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,d75db888438099d4,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+cfdcb1d799ecfd2e,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,d2ec86ebe061e1e2,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+cdd511587fb5c7c8,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,ee37221f4d3f5952,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+4f801693b09a04f6,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,1572eeb17c031b95,The classifier found a candidate case but no reliable entity name could be extracted.,3B
+ccdf90b951e0b073,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,05d56ce91aebce27,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+a91bc7bad0dd808f,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,a125b18406389fca,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+c140a425c9646ef2,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,1fe2437ce3d1ff4c,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+9d8ab5788e70cc6b,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,94b16efe9e39d2cd,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+1b2dce8cfc03bf73,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,5e2dcdf8e8fa0e43,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+d8e5dbf18c86f70a,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,4f789bcaa9ee43af,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+9c75be7e89b9ffb7,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,730f2275376679f6,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+e62d53c60097905d,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,d8685317010bfcd6,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+3e6e8d1c278b43ca,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,1939768fb990b4bf,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+995027efd925b09f,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,4d81ebe4b308800a,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+92fdb95a8b25331b,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,8c8f6500810be2c4,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+cb9fdbfdbf099e79,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,5764c45622b8861c,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+7d7e5bca6854a493,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,47b88cc00a6bc186,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+d458b5d844cf5253,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,4702ec7d0f764dcd,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+69374cb98c373328,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,0dfccf015bc09a09,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+fe23c36e222cd368,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,b33cb8222948bf5b,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+f5b90b2210db21a3,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,a950098eeb29c711,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+22c0769bd942f688,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,84dc56a4c6569a87,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+193f43d2f7f84ca2,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,f76414d365e88694,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+1a334a4ffe27f086,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,43c4422a0315544f,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+2facc200626adeea,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,7a6ede1fb3e84e5e,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+4b4a96258cd48910,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,3b621c8f9f37a3bb,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+ca63df84972e5ec8,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,77df13937b1f869d,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+cbcfa9b7d0d9b0ce,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,185455e097cc5d60,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+7811f9a1cc3b2f29,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,4114e9a88a35fb76,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+8552081d654bd061,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,79cabe3e84965e59,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+6e7cb9757f73d0d0,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,b14411d6f6e88d5c,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+e05aa7a38bf23508,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,3ea23db5c7ff5f3e,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+3b2a0324604baad2,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,cf6bbd958fa5894d,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+e296058a6ead2232,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,9f4f3b83906ffdcd,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+56a2a6cf355f27db,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,2436b513d3baa773,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+e363d60d0f275b3e,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,24622fa1bb9e3c26,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+e381708cf5199d38,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,c84b400da48ffc69,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+800d2954a49787fb,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,cbad93902bb20df0,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+ebd23069d82f746b,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,fd8086a6a106b80b,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+5ef2cd6c17ee61b2,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,1b73c49d1fab0bc8,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+7e63f60272e470e4,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,8496bc611e503806,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+8981e3084439f186,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,0e091120cdf1a3c6,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+145f19b8e92602c7,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,4e2c5ecb6c333140,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+f11dbd6c8d57ea68,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,19c2d928cc8a337a,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+7bc4efa2584e5665,missing_entity_name,high,,https://misp-galaxy.org/surveillance-vendor/,3150bf487e5c40c7,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+35b60666e1a71388,missing_entity_name,high,,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,de4349f99b23d95d,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+7b28d788b9a97345,missing_entity_name,high,,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,ba59987b6dbc0835,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+695e01936cb2e14c,missing_entity_name,high,,https://time.com/7306226/ai-criminal-justice-police-courts-cops/,2705adcc1762d0f4,The classifier found a candidate case but no reliable entity name could be extracted.,Not included
+6bb1b0d90cacde31,missing_entity_name,high,,https://www.aol.com/news/italian-police-freeze-cash-ai-191616630.html,706f13c1a2f33027,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+272de45a6521c1e3,missing_entity_name,high,,https://www.aol.com/news/italian-police-freeze-cash-ai-191616630.html,2a2e765f83805184,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+547de34a083d553a,missing_entity_name,high,,https://www.app.com/story/news/nation/2025/05/26/fbi-warning-ai-voice-scam-2025/83861927007/,4791e3d6128d57d6,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+4ad97314ef893409,missing_entity_name,high,,https://www.khou.com/article/news/local/houston-ai-voice-scam/285-136a7fc0-c40f-4149-9e09-4bede4120738,370f510671180795,The classifier found a candidate case but no reliable entity name could be extracted.,Not included
+9f6a85475e450def,missing_entity_name,high,,https://www.theguardian.com/us-news/2026/mar/15/hacked-data-homeland-security,d394a5ef8bdf5f0a,The classifier found a candidate case but no reliable entity name could be extracted.,Not included
+f634429d0d378f65,missing_entity_name,high,,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,1c1fb7f60b39f8b4,The classifier found a candidate case but no reliable entity name could be extracted.,1B
+576e35be765d176f,missing_entity_name,high,,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,2dfd53e1af735e85,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+0e060d84da62b5f2,missing_entity_name,high,,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,22635c6e2fc56648,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+5b23ca6a2b1face8,missing_entity_name,high,,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,0c421e5339c4af1a,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+d87c6079110ddd40,missing_entity_name,high,,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,c7cf1d9cc4c03fd7,The classifier found a candidate case but no reliable entity name could be extracted.,4A
+e720555987ba84ce,missing_entity_name,high,,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,5078e3529d068b8c,The classifier found a candidate case but no reliable entity name could be extracted.,3A
+5c25664b71a67c0f,missing_entity_name,high,,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,aeef4c5dddf38f51,The classifier found a candidate case but no reliable entity name could be extracted.,Not included
+168e0a46e2fe0405,possible_duplicate,medium,Ainude,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,2bbfa2edd9ee913e,Possible duplicate of Ai Nudes with similarity 0.86.,1B
+31910015ce42ab74,possible_duplicate,medium,Horizon Technologies,https://misp-galaxy.org/surveillance-vendor/,7fd4e181c0fce915,Possible duplicate of Echo-On Technologies with similarity 0.87.,3A
+59fc92a8411ee0fb,possible_duplicate,medium,Inex Technologies,https://misp-galaxy.org/surveillance-vendor/,0fa5e336600e27fc,Possible duplicate of BI2 Technologies with similarity 0.85.,3A
+9e1ddcb7e807295a,possible_duplicate,medium,Key Technologies,https://misp-galaxy.org/surveillance-vendor/,fa2acc0ac5d9b6c6,Possible duplicate of Inex Technologies with similarity 0.85.,3A
+db282fd64a8eddc2,possible_duplicate,medium,Leon Technology Company Limited Megvii,https://home.treasury.gov/news/press-releases/jy0538,09096a07d60506cb,Possible duplicate of Leon Technology Company Limited with similarity 0.90.,3A
+8fba09d5214239f0,possible_duplicate,medium,PRC. Leon Technology,https://home.treasury.gov/news/press-releases/jy0538,52d2de9eed923adc,Possible duplicate of Leon Technology with similarity 0.88.,3A
+fcafa9f26cb90c72,possible_duplicate,medium,Technologies,https://misp-galaxy.org/surveillance-vendor/,0531ae60f545179c,Possible duplicate of BI2 Technologies with similarity 0.86.,3A
+921cd135a26de078,possible_duplicate,medium,Tiandy Technologies,https://misp-galaxy.org/surveillance-vendor/,eec67133f4771bea,Possible duplicate of Inex Technologies with similarity 0.83.,3A
+d79302f531be18f5,possible_duplicate,medium,Undressai,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,f110a5dcf8b19506,Possible duplicate of Undress with similarity 0.88.,1B
+54b55f5865b36ff8,possible_duplicate,medium,Undresser,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,e85cec5e3fc1fa1b,Possible duplicate of Undress with similarity 0.88.,1B
+f96b93010c500d69,possible_duplicate,medium,Undressing,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,c2de40a884055821,Possible duplicate of Undressai with similarity 0.84.,1B
+877aee5e843f814d,low_confidence_classification,medium,,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,2dfd53e1af735e85,Classification confidence is 0.52.,4A
+a5d9bb6fdf6de287,low_confidence_classification,medium,,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,22635c6e2fc56648,Classification confidence is 0.48.,4A
+bd8e39c1a1260bd8,low_confidence_classification,medium,,https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites,0c421e5339c4af1a,Classification confidence is 0.54.,4A
+94dfe5ea4029ea9d,low_confidence_classification,medium,,https://home.treasury.gov/news/press-releases/jy0538,46a5fe15b9ce5cba,Classification confidence is 0.60.,4A
+32eec5d8d810a325,low_confidence_classification,medium,Total Taxable Resources Terrorism,https://home.treasury.gov/news/press-releases/jy0538,02e6ba5306eea5e0,Classification confidence is 0.56.,2C
+03461afaafd86520,multi_category_ambiguity,medium,Total Taxable Resources Terrorism,https://home.treasury.gov/news/press-releases/jy0538,02e6ba5306eea5e0,Competing codes: 4A.,2C
+5dd6b2ff68ed6615,low_confidence_classification,medium,Outbound Investment Security,https://home.treasury.gov/news/press-releases/jy0538,61a95602ad432ebc,Classification confidence is 0.56.,2C
+9ccc9522b89ae1b9,multi_category_ambiguity,medium,Outbound Investment Security,https://home.treasury.gov/news/press-releases/jy0538,61a95602ad432ebc,Competing codes: 4A.,2C
+20e43a0f4c6b828b,low_confidence_classification,medium,Program Exchange Stabilization Fund International,https://home.treasury.gov/news/press-releases/jy0538,b8a9d508a7488267,Classification confidence is 0.56.,2C
+0b272d26ec449668,multi_category_ambiguity,medium,Program Exchange Stabilization Fund International,https://home.treasury.gov/news/press-releases/jy0538,b8a9d508a7488267,Competing codes: 4A.,2C
+b4df29d3fb7b11b9,low_confidence_classification,medium,Small,https://home.treasury.gov/news/press-releases/jy0538,168ee737e890e639,Classification confidence is 0.49.,2C
+8f08719d787bf883,multi_category_ambiguity,medium,Small,https://home.treasury.gov/news/press-releases/jy0538,168ee737e890e639,Competing codes: 4A.,2C
+35ae207cc2283434,low_confidence_classification,medium,Documents Investor Class Auction Allotments Treasury International,https://home.treasury.gov/news/press-releases/jy0538,8514ac06304b726a,Classification confidence is 0.49.,2C
+8b314ea05c9e076b,multi_category_ambiguity,medium,Documents Investor Class Auction Allotments Treasury International,https://home.treasury.gov/news/press-releases/jy0538,8514ac06304b726a,Competing codes: 4A.,2C
+c6de7305dd2d09ad,low_confidence_classification,medium,System U.S International,https://home.treasury.gov/news/press-releases/jy0538,5651fdf3f7b0eff2,Classification confidence is 0.49.,2C
+b66a675fa922d54c,multi_category_ambiguity,medium,System U.S International,https://home.treasury.gov/news/press-releases/jy0538,5651fdf3f7b0eff2,Competing codes: 4A.,2C
+164d301013119e69,low_confidence_classification,medium,,https://home.treasury.gov/news/press-releases/jy0538,a193ae86e5cf8092,Classification confidence is 0.50.,4A
+36e050a8e220518b,low_confidence_classification,medium,,https://home.treasury.gov/news/press-releases/jy0538,eacbba1f85996839,Classification confidence is 0.49.,4A
+79b50f7aff0eb9e9,low_confidence_classification,medium,,https://home.treasury.gov/news/press-releases/jy0538,f81449777054ad8f,Classification confidence is 0.58.,4A
+93233ab31dec0e08,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,d22c400d87f96a26,Competing codes: 3A.,4A
+d588b75ad8ce43ce,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,d384650f6fced252,Classification confidence is 0.36.,4A
+0a1b42cf9fe2f8a7,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,d384650f6fced252,"Competing codes: 4C, 3A.",4A
+bd9111ebbb470c86,low_confidence_classification,medium,Gamma Group,https://misp-galaxy.org/surveillance-vendor/,b5de2b7bf473239b,Classification confidence is 0.54.,3A
+76c4018654aa81f1,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,3bdcd0895d12a5f1,Classification confidence is 0.54.,4A
+fc85b6a0fb13ba5d,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,3bdcd0895d12a5f1,Competing codes: 3A.,4A
+170cfe58bd7c7714,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,9f7ac55e16e08d3b,Classification confidence is 0.54.,4A
+bbb69df14da2f053,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,9f7ac55e16e08d3b,Competing codes: 3A.,4A
+00ce4f7a26ac4f19,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,db1c2bdefe851dea,Classification confidence is 0.56.,4A
+f695fc91b2dae62c,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,db1c2bdefe851dea,Competing codes: 3A.,4A
+c491a0db262e28fb,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,8a6d4bd62499658c,Classification confidence is 0.58.,4A
+dc45f150e2b62d33,low_confidence_classification,medium,Aglaya,https://misp-galaxy.org/surveillance-vendor/,f40eeb8eec50b095,Classification confidence is 0.50.,3A
+404bb91d1b868ed7,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,171e6182a630dea3,Competing codes: 3A.,4A
+5434a4ee5c63ca59,low_confidence_classification,medium,Area,https://misp-galaxy.org/surveillance-vendor/,8a4f868736a1dab0,Classification confidence is 0.50.,3A
+29d00794cee13ef6,multi_category_ambiguity,medium,Area,https://misp-galaxy.org/surveillance-vendor/,8a4f868736a1dab0,"Competing codes: 4A, 4C.",3A
+90dac6a4a792ae17,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,dde40d5232fd0db9,Classification confidence is 0.52.,3A
+0a7eec5c46efd657,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,dde40d5232fd0db9,Competing codes: 4A.,3A
+32751a7391b4ecc3,low_confidence_classification,medium,Norsi-Trans,https://misp-galaxy.org/surveillance-vendor/,d9b45c48e918c3c7,Classification confidence is 0.52.,3A
+c21994f645d5418c,multi_category_ambiguity,medium,Norsi-Trans,https://misp-galaxy.org/surveillance-vendor/,d9b45c48e918c3c7,"Competing codes: 4A, 4C.",3A
+b0879502ed92854f,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,898905ed8076fbd8,Classification confidence is 0.56.,4A
+97d6c26ec52f4d12,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,898905ed8076fbd8,Competing codes: 3A.,4A
+1f62410a445a2172,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,ce0a4b1bd8e0f302,Classification confidence is 0.51.,4A
+70fb53be15a4d523,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,ce0a4b1bd8e0f302,Competing codes: 3A.,4A
+e865842842fdfe06,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,be2dbfe92862df33,Classification confidence is 0.52.,3A
+9d58e1261122f7d8,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,be2dbfe92862df33,Competing codes: 4A.,3A
+5c1bab60a8621132,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,3689a3c2b10c4995,Classification confidence is 0.55.,4A
+3d1d44eac15e2673,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,3689a3c2b10c4995,"Competing codes: 3A, 2A.",4A
+2706c0becfd0cbcd,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,59051d4a7e4839f3,Classification confidence is 0.52.,3A
+ddc7d07d145d9fe6,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,59051d4a7e4839f3,Competing codes: 4A.,3A
+4cbaff29eb7841c0,low_confidence_classification,medium,Aeryon Labs,https://misp-galaxy.org/surveillance-vendor/,90245fa720ba01f2,Classification confidence is 0.52.,3A
+01c45594b3ad3a53,multi_category_ambiguity,medium,Aeryon Labs,https://misp-galaxy.org/surveillance-vendor/,90245fa720ba01f2,Competing codes: 4A.,3A
+33661d3f988e7f70,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,64b1e9679a0e8974,Classification confidence is 0.51.,4A
+af659119e18bfe62,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,64b1e9679a0e8974,"Competing codes: 4C, 3A.",4A
+d4e062a6235ddcd4,low_confidence_classification,medium,Anomaly Six,https://misp-galaxy.org/surveillance-vendor/,e95fa703678f26f5,Classification confidence is 0.49.,3A
+3aa48c4afce45740,multi_category_ambiguity,medium,Anomaly Six,https://misp-galaxy.org/surveillance-vendor/,e95fa703678f26f5,"Competing codes: 4A, 4C.",3A
+83d57fddf8f7453b,low_confidence_classification,medium,Ateros,https://misp-galaxy.org/surveillance-vendor/,f8523edd24951932,Classification confidence is 0.53.,3A
+a0b6b0e7965cd4b7,multi_category_ambiguity,medium,Ateros,https://misp-galaxy.org/surveillance-vendor/,f8523edd24951932,Competing codes: 4A.,3A
+f5c8a31abb61fb3b,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,f42769c8d630fe67,Classification confidence is 0.55.,4A
+6270da8b509ccdb2,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,f42769c8d630fe67,Competing codes: 3A.,4A
+8cdfc17118254b20,low_confidence_classification,medium,Avnon Group,https://misp-galaxy.org/surveillance-vendor/,2065a83f0e0f3dc1,Classification confidence is 0.40.,3A
+0b17d60fb2b3b376,multi_category_ambiguity,medium,Avnon Group,https://misp-galaxy.org/surveillance-vendor/,2065a83f0e0f3dc1,Competing codes: 4A.,3A
+ff2bf0d2b4e434f6,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,fe81010c5de69d28,Classification confidence is 0.53.,4A
+3856eb29156e56ce,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,fe81010c5de69d28,"Competing codes: 3A, 2A.",4A
+d483209cc7304113,low_confidence_classification,medium,BeeSense,https://misp-galaxy.org/surveillance-vendor/,70fe54c2945dbc3c,Classification confidence is 0.36.,Not included
+f528c16a41503e34,multi_category_ambiguity,medium,BeeSense,https://misp-galaxy.org/surveillance-vendor/,70fe54c2945dbc3c,Competing codes: 3A.,Not included
+f8c8b6db8a113beb,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,eb75b39fa4b10161,Classification confidence is 0.51.,4A
+ff4fdcd39d5a704a,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,eb75b39fa4b10161,Competing codes: 3A.,4A
+6ea2e6e1dc8ea594,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,0d900f197a6f92a5,Classification confidence is 0.57.,3A
+8d4a8c0f670bdc30,low_confidence_classification,medium,Black Wall Global. Led,https://misp-galaxy.org/surveillance-vendor/,114578496fe104df,Classification confidence is 0.51.,3A
+64bcc8827d43ba75,multi_category_ambiguity,medium,Black Wall Global. Led,https://misp-galaxy.org/surveillance-vendor/,114578496fe104df,Competing codes: 4A.,3A
+fecef586adb4f1dc,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,e5fa74dc123198ac,Classification confidence is 0.52.,4A
+8ee6e6f599e64ea9,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,e5fa74dc123198ac,"Competing codes: 3A, 2C.",4A
+1b41a1e07b999069,low_confidence_classification,medium,Bler,https://misp-galaxy.org/surveillance-vendor/,e5fc88a073aba8fd,Classification confidence is 0.53.,3A
+abe9eb81bb59ee09,multi_category_ambiguity,medium,Bler,https://misp-galaxy.org/surveillance-vendor/,e5fc88a073aba8fd,"Competing codes: 4C, 4A.",3A
+df19b76eaef19e37,multi_category_ambiguity,medium,Boldend,https://misp-galaxy.org/surveillance-vendor/,323f99a7d28fdd8d,Competing codes: 3A.,4A
+aa922b2c93816383,low_confidence_classification,medium,BriefCam,https://misp-galaxy.org/surveillance-vendor/,844f01b73d9dfa76,Classification confidence is 0.54.,3A
+64b06ed33cea168b,multi_category_ambiguity,medium,BriefCam,https://misp-galaxy.org/surveillance-vendor/,844f01b73d9dfa76,Competing codes: 4A.,3A
+926905882a502e08,low_confidence_classification,medium,Butterfly Effect,https://misp-galaxy.org/surveillance-vendor/,f5b0afacbda6e571,Classification confidence is 0.40.,Not included
+f20327a4ffb4c70c,low_confidence_classification,medium,Callyo,https://misp-galaxy.org/surveillance-vendor/,78063b63bf0a8772,Classification confidence is 0.58.,3A
+c168ac4f4411f800,low_confidence_classification,medium,Camero,https://misp-galaxy.org/surveillance-vendor/,00db7d755eccdaa6,Classification confidence is 0.38.,Not included
+3704c4218df4b58d,low_confidence_classification,medium,Carbyne,https://misp-galaxy.org/surveillance-vendor/,fad04ae11ece147a,Classification confidence is 0.32.,Not included
+32483bb39c214b36,multi_category_ambiguity,medium,Carbyne,https://misp-galaxy.org/surveillance-vendor/,fad04ae11ece147a,Competing codes: 4A.,Not included
+739e9242a466a88f,low_confidence_classification,medium,Cemtrex,https://misp-galaxy.org/surveillance-vendor/,de289e399ada2217,Classification confidence is 0.52.,3A
+5610326f457a33b7,multi_category_ambiguity,medium,Cemtrex,https://misp-galaxy.org/surveillance-vendor/,de289e399ada2217,"Competing codes: 4A, 1A.",3A
+de2159a0c4249488,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,d6a6c92b5a1f7b83,Classification confidence is 0.47.,4A
+c9f3f43499e1b9af,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,d6a6c92b5a1f7b83,Competing codes: 3A.,4A
+1d986d609320cc90,low_confidence_classification,medium,Cobwebs Technologies,https://misp-galaxy.org/surveillance-vendor/,f9f677ddaf1aa662,Classification confidence is 0.49.,3A
+e724e40891368343,multi_category_ambiguity,medium,Cobwebs Technologies,https://misp-galaxy.org/surveillance-vendor/,f9f677ddaf1aa662,"Competing codes: 4C, 4A.",3A
+518134da66ed673d,low_confidence_classification,medium,Complementics,https://misp-galaxy.org/surveillance-vendor/,b34aa5942c0d591c,Classification confidence is 0.35.,Not included
+5ccf40b3fc38e784,multi_category_ambiguity,medium,Complementics,https://misp-galaxy.org/surveillance-vendor/,b34aa5942c0d591c,Competing codes: 4A.,Not included
+5f44aec8dbdcfab3,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,ed8b28d9c68afb7b,Classification confidence is 0.49.,3A
+481e41c42bcd8495,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,ed8b28d9c68afb7b,Competing codes: 4A.,3A
+d6cdcd56be853c84,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,11dcf6a4e166d747,Classification confidence is 0.59.,4A
+2586eb4e0f665f82,low_confidence_classification,medium,CSRA Inc,https://misp-galaxy.org/surveillance-vendor/,b0f96f68ad23ee7b,Classification confidence is 0.55.,1A
+89a62eea110fa4cc,multi_category_ambiguity,medium,CSRA Inc,https://misp-galaxy.org/surveillance-vendor/,b0f96f68ad23ee7b,"Competing codes: 4C, 4A.",1A
+7186b7146e28d00b,low_confidence_classification,medium,Dassault. Arms,https://misp-galaxy.org/surveillance-vendor/,94dc0420f84471fb,Classification confidence is 0.54.,3A
+9c2938108f043049,multi_category_ambiguity,medium,Dassault. Arms,https://misp-galaxy.org/surveillance-vendor/,94dc0420f84471fb,Competing codes: 4A.,3A
+5e5aa188958f28e4,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,8a526fb26be5adee,Classification confidence is 0.56.,4A
+3f5700e329024dde,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,8a526fb26be5adee,Competing codes: 3A.,4A
+4e2012dba91def7f,low_confidence_classification,medium,DEA Aviation,https://misp-galaxy.org/surveillance-vendor/,5e77bc01ea1f5102,Classification confidence is 0.33.,Not included
+75a42e1b350aa8d8,multi_category_ambiguity,medium,DEA Aviation,https://misp-galaxy.org/surveillance-vendor/,5e77bc01ea1f5102,"Competing codes: 3A, 2C.",Not included
+6cef5c882d3406cd,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,8e2848fb05be7dc6,Classification confidence is 0.55.,4A
+beaec3f0e9e987e5,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,8e2848fb05be7dc6,Competing codes: 3A.,4A
+e74b9229e20a767b,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,d61fdccb57f2a2f5,Classification confidence is 0.53.,4A
+8a0b4999f801d44c,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,d61fdccb57f2a2f5,"Competing codes: 3A, 4C.",4A
+7d4ba53bc25afdab,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,2fe5ed7438e4afcb,Competing codes: 3A.,4A
+b1de252708f32d98,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,dc7eabbeb064c17d,Classification confidence is 0.50.,3A
+6b27dfdb475c85d3,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,dc7eabbeb064c17d,Competing codes: 4A.,3A
+a97e9c9f2d970477,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,84c89baa51350285,Classification confidence is 0.54.,4A
+60f99837a10d35ab,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,84c89baa51350285,"Competing codes: 3A, 3B.",4A
+57800d6cc3b1e53c,low_confidence_classification,medium,Echo-On Technologies,https://misp-galaxy.org/surveillance-vendor/,ef2d839cc8ba7d79,Classification confidence is 0.58.,3A
+bb559165fa45454b,multi_category_ambiguity,medium,Echo-On Technologies,https://misp-galaxy.org/surveillance-vendor/,ef2d839cc8ba7d79,Competing codes: 4A.,3A
+108a6031a8bf1f9c,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,4818f1b5aaed835e,Classification confidence is 0.40.,4A
+db500e50cad3cce1,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,4818f1b5aaed835e,"Competing codes: 3A, 4C.",4A
+24bf199218900618,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,e6e9dc8e12299033,Classification confidence is 0.56.,4A
+4168e57b6befa158,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,e6e9dc8e12299033,Competing codes: 3A.,4A
+b8e25125cf85282f,low_confidence_classification,medium,Elsight,https://misp-galaxy.org/surveillance-vendor/,bc5ae4ee38e2fe8d,Classification confidence is 0.47.,3A
+3c4a79426ce51331,multi_category_ambiguity,medium,Elsight,https://misp-galaxy.org/surveillance-vendor/,bc5ae4ee38e2fe8d,"Competing codes: 4C, 4A.",3A
+bec2804840cc74d3,low_confidence_classification,medium,Endace,https://misp-galaxy.org/surveillance-vendor/,517668527be8ea8f,Classification confidence is 0.47.,3A
+7f9317c8cb80409a,multi_category_ambiguity,medium,Endace,https://misp-galaxy.org/surveillance-vendor/,517668527be8ea8f,Competing codes: 4A.,3A
+4e021ad503f4898a,low_confidence_classification,medium,Endeca,https://misp-galaxy.org/surveillance-vendor/,f8101e56623b4b8d,Classification confidence is 0.54.,3A
+9ff2a3d095edd02b,multi_category_ambiguity,medium,Endeca,https://misp-galaxy.org/surveillance-vendor/,f8101e56623b4b8d,Competing codes: 4A.,3A
+07a4e701f226045e,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,874ff0d1b1326058,Competing codes: 3A.,4A
+a7f77dd8122932c9,multi_category_ambiguity,medium,Ercom,https://misp-galaxy.org/surveillance-vendor/,fa94d425f6a7d5b0,Competing codes: 4A.,3A
+dd91d5b9c33aec37,low_confidence_classification,medium,ETI,https://misp-galaxy.org/surveillance-vendor/,ae3bdba509c938be,Classification confidence is 0.50.,3A
+1cb9dda8df28f228,low_confidence_classification,medium,Falcon,https://misp-galaxy.org/surveillance-vendor/,1f3821ca0bda5d00,Classification confidence is 0.51.,4C
+91a8b4d1af6c01be,multi_category_ambiguity,medium,Falcon,https://misp-galaxy.org/surveillance-vendor/,1f3821ca0bda5d00,"Competing codes: 3A, 4A.",4C
+0cd8b4d2c45ba151,low_confidence_classification,medium,FiberHome,https://misp-galaxy.org/surveillance-vendor/,6b59a208b4820b4b,Classification confidence is 0.58.,3A
+7d2de96702a82ba9,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,eff329142bf755b0,Classification confidence is 0.58.,4A
+87344aac5e7fb75b,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,eff329142bf755b0,"Competing codes: 4C, 3A.",4A
+04a7758b1db82090,low_confidence_classification,medium,Fly4Less,https://misp-galaxy.org/surveillance-vendor/,5fcacbba4c0ee7b3,Classification confidence is 0.50.,3A
+4d945477681554f4,multi_category_ambiguity,medium,Fly4Less,https://misp-galaxy.org/surveillance-vendor/,5fcacbba4c0ee7b3,Competing codes: 4A.,3A
+ee8b70b60f69942e,low_confidence_classification,medium,Forenza,https://misp-galaxy.org/surveillance-vendor/,81f7dc953def642d,Classification confidence is 0.55.,4C
+33b020b57d83f785,multi_category_ambiguity,medium,Forenza,https://misp-galaxy.org/surveillance-vendor/,81f7dc953def642d,"Competing codes: 4A, 3A.",4C
+90cc9108185c694f,low_confidence_classification,medium,Fraunhofer IOSB,https://misp-galaxy.org/surveillance-vendor/,0998c39ea1092e1a,Classification confidence is 0.57.,3A
+e6bed892727df5b4,low_confidence_classification,medium,G4S,https://misp-galaxy.org/surveillance-vendor/,92d117d8f33e4d6e,Classification confidence is 0.37.,Not included
+552b97cb0b8baafc,multi_category_ambiguity,medium,G4S,https://misp-galaxy.org/surveillance-vendor/,92d117d8f33e4d6e,Competing codes: 3A.,Not included
+cec5b2f8c4f34d65,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,4847b04ebbab55dc,Classification confidence is 0.51.,4A
+4463cdfd57bca333,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,4847b04ebbab55dc,Competing codes: 3A.,4A
+e40740b0d8b44435,low_confidence_classification,medium,Pegasus,https://misp-galaxy.org/surveillance-vendor/,3bf2d771385eb59c,Classification confidence is 0.54.,3A
+12f8893b87b74338,low_confidence_classification,medium,General Atomics,https://misp-galaxy.org/surveillance-vendor/,203f499326292c9b,Classification confidence is 0.38.,Not included
+e273874e9ea95bbe,multi_category_ambiguity,medium,General Atomics,https://misp-galaxy.org/surveillance-vendor/,203f499326292c9b,"Competing codes: 4C, 3A.",Not included
+1343051df03ef7e3,multi_category_ambiguity,medium,Genetec,https://misp-galaxy.org/surveillance-vendor/,f419c00965551b49,Competing codes: 4A.,3A
+2f9536b7834a0c57,low_confidence_classification,medium,GEOAI,https://misp-galaxy.org/surveillance-vendor/,58d0bf943cb93b15,Classification confidence is 0.48.,3A
+21a6ecf2fbe900f2,multi_category_ambiguity,medium,GEOAI,https://misp-galaxy.org/surveillance-vendor/,58d0bf943cb93b15,"Competing codes: 4C, 4A.",3A
+d21401034db6c522,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,0f54e68da28d4748,Classification confidence is 0.54.,4A
+dd90c10a23a9dc8b,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,0f54e68da28d4748,"Competing codes: 3A, 4C.",4A
+8c89f02e116f10d2,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,6f3fe05167307fb9,Classification confidence is 0.50.,4A
+7bd750a18a8cb11f,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,6f3fe05167307fb9,Competing codes: 3A.,4A
+91af3f39790eae23,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,70b3a010d9a800c4,Classification confidence is 0.54.,4A
+f2300749f2226f2c,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,70b3a010d9a800c4,Competing codes: 1A.,4A
+10bcf5dff2263fb0,low_confidence_classification,medium,Gorilla Technology,https://misp-galaxy.org/surveillance-vendor/,4eb917eebafe525d,Classification confidence is 0.52.,3A
+f66c694076843753,multi_category_ambiguity,medium,Gorilla Technology,https://misp-galaxy.org/surveillance-vendor/,4eb917eebafe525d,"Competing codes: 4A, 4C.",3A
+314cb2b1c8e207e4,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,62224871be6fffec,Classification confidence is 0.50.,3A
+4f610c3f2a0887fb,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,62224871be6fffec,Competing codes: 4A.,3A
+f849411e5eb38baf,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,283e95b80c233710,Classification confidence is 0.51.,4A
+ac374dbba3f956d0,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,283e95b80c233710,Competing codes: 3A.,4A
+0237a54fe56cea4a,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,e20d930ba6ce30f7,Classification confidence is 0.49.,3A
+5d0d447b89ba4420,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,e20d930ba6ce30f7,"Competing codes: 4C, 4A.",3A
+e2472112de5565bd,low_confidence_classification,medium,Horizon Technologies,https://misp-galaxy.org/surveillance-vendor/,7fd4e181c0fce915,Classification confidence is 0.58.,3A
+8311b6ff15401645,low_confidence_classification,medium,Inex Technologies,https://misp-galaxy.org/surveillance-vendor/,0fa5e336600e27fc,Classification confidence is 0.57.,3A
+5aeb11d4ca6c1c53,low_confidence_classification,medium,Intecs,https://misp-galaxy.org/surveillance-vendor/,4ea11b9703c2c075,Classification confidence is 0.34.,Not included
+13fb37eb86fa1c48,multi_category_ambiguity,medium,Intecs,https://misp-galaxy.org/surveillance-vendor/,4ea11b9703c2c075,Competing codes: 4A.,Not included
+59add6e1c12d905a,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,b8f66459776355d4,Classification confidence is 0.51.,4A
+b8d2ead2df0b8b47,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,b8f66459776355d4,Competing codes: 3A.,4A
+f026483998f6727a,low_confidence_classification,medium,Technologies,https://misp-galaxy.org/surveillance-vendor/,0531ae60f545179c,Classification confidence is 0.57.,3A
+b1cbb066eb5c54ae,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,d75db888438099d4,Classification confidence is 0.53.,4A
+49b45cd2f82af186,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,d75db888438099d4,Competing codes: 3A.,4A
+a2b272a0da9dd716,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,d2ec86ebe061e1e2,Classification confidence is 0.51.,4A
+0a748864db871550,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,d2ec86ebe061e1e2,"Competing codes: 3A, 1A.",4A
+ca2ef274c3373ee4,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,ee37221f4d3f5952,Classification confidence is 0.59.,4A
+b1020caa9137d5db,low_confidence_classification,medium,Kedacom,https://misp-galaxy.org/surveillance-vendor/,b0f75eefa638eaf9,Classification confidence is 0.59.,3A
+3834796d3223f29a,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,05d56ce91aebce27,Classification confidence is 0.55.,4A
+5cc465f96285933c,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,05d56ce91aebce27,Competing codes: 3A.,4A
+dbd9329fcca6dbd9,multi_category_ambiguity,medium,Korporacja,https://misp-galaxy.org/surveillance-vendor/,120d1fcfb734af73,Competing codes: 4A.,3A
+251058c802220207,low_confidence_classification,medium,L3Harris,https://misp-galaxy.org/surveillance-vendor/,29decd99c525504a,Classification confidence is 0.53.,3A
+b90b88b70a8acf54,multi_category_ambiguity,medium,L3Harris,https://misp-galaxy.org/surveillance-vendor/,29decd99c525504a,"Competing codes: 4A, 4C.",3A
+7e9d1561405b06af,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,a125b18406389fca,Classification confidence is 0.54.,4A
+2e7de3785af44fcb,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,a125b18406389fca,"Competing codes: 3A, 4C.",4A
+6a8186ac39d84cd7,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,1fe2437ce3d1ff4c,Classification confidence is 0.52.,4A
+3d3cb97663ac4c9e,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,1fe2437ce3d1ff4c,"Competing codes: 4C, 3A.",4A
+dae4177e518fb370,low_confidence_classification,medium,Linchpin Labs,https://misp-galaxy.org/surveillance-vendor/,b6adf0832ab44f4b,Classification confidence is 0.56.,4A
+11c34f0db86b1b0e,multi_category_ambiguity,medium,Linchpin Labs,https://misp-galaxy.org/surveillance-vendor/,b6adf0832ab44f4b,"Competing codes: 3A, 1A.",4A
+0b960f469f1e396d,low_confidence_classification,medium,Magal Security Systems,https://misp-galaxy.org/surveillance-vendor/,7b896451a1f7f0ea,Classification confidence is 0.47.,3A
+fa1d9ae69af5b573,multi_category_ambiguity,medium,Magal Security Systems,https://misp-galaxy.org/surveillance-vendor/,7b896451a1f7f0ea,Competing codes: 4A.,3A
+53e9212e0a061816,low_confidence_classification,medium,Massive Blue,https://misp-galaxy.org/surveillance-vendor/,c1422dbbc1bb2182,Classification confidence is 0.48.,3A
+b0077d38f05a3b59,multi_category_ambiguity,medium,Massive Blue,https://misp-galaxy.org/surveillance-vendor/,c1422dbbc1bb2182,Competing codes: 4A.,3A
+f4f2c990b3f52342,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,94b16efe9e39d2cd,Classification confidence is 0.45.,4A
+4edbe7438b961405,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,94b16efe9e39d2cd,Competing codes: 3A.,4A
+9bc735ca7e397248,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,5e2dcdf8e8fa0e43,Classification confidence is 0.52.,4A
+6f0da214c41b5150,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,5e2dcdf8e8fa0e43,"Competing codes: 3A, 1A.",4A
+055eedefe4be5492,low_confidence_classification,medium,Meltwater,https://misp-galaxy.org/surveillance-vendor/,99a8404baeced946,Classification confidence is 0.38.,Not included
+4cb043b36b183734,multi_category_ambiguity,medium,Meltwater,https://misp-galaxy.org/surveillance-vendor/,99a8404baeced946,Competing codes: 3A.,Not included
+415e9be3df876d09,low_confidence_classification,medium,Mozenda,https://misp-galaxy.org/surveillance-vendor/,b143cdeb6ea11064,Classification confidence is 0.50.,3A
+c0cb2a218eff48cc,multi_category_ambiguity,medium,Mozenda,https://misp-galaxy.org/surveillance-vendor/,b143cdeb6ea11064,Competing codes: 4A.,3A
+22ca159b949ef309,low_confidence_classification,medium,Near. Data,https://misp-galaxy.org/surveillance-vendor/,413b2446521020ee,Classification confidence is 0.30.,4C
+da308005fb417f8d,multi_category_ambiguity,medium,Near. Data,https://misp-galaxy.org/surveillance-vendor/,413b2446521020ee,"Competing codes: 4A, 3A.",4C
+b5f5e84b7f6a2d31,multi_category_ambiguity,medium,NEC Corporation,https://misp-galaxy.org/surveillance-vendor/,4483568a1a2f777a,Competing codes: 4A.,3A
+e113a7124b0dcfef,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,4f789bcaa9ee43af,Classification confidence is 0.50.,4A
+35d339ebefe9db43,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,4f789bcaa9ee43af,"Competing codes: 3A, 1A.",4A
+ee9fc51aacb465b0,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,730f2275376679f6,Classification confidence is 0.52.,4A
+d4a114d1c59e5c61,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,730f2275376679f6,Competing codes: 3A.,4A
+873dd639351ecf48,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,d8685317010bfcd6,Classification confidence is 0.47.,4A
+358bf47eaeaf9654,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,d8685317010bfcd6,Competing codes: 3A.,4A
+8397d42c31c67836,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,4d81ebe4b308800a,Classification confidence is 0.52.,4A
+8fba5ab2ab0e7fe5,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,4d81ebe4b308800a,Competing codes: 3A.,4A
+96cc37e2de75d11f,low_confidence_classification,medium,Obvious Technologies,https://misp-galaxy.org/surveillance-vendor/,bb312ed9ae45eb79,Classification confidence is 0.32.,Not included
+be64b1ca2dfd77bf,multi_category_ambiguity,medium,Obvious Technologies,https://misp-galaxy.org/surveillance-vendor/,bb312ed9ae45eb79,Competing codes: 3A.,Not included
+2ed903fb6ddf4aa8,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,8c8f6500810be2c4,Classification confidence is 0.54.,4A
+6fa13535368f35ac,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,8c8f6500810be2c4,Competing codes: 3A.,4A
+8f01792f75893292,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,5764c45622b8861c,Classification confidence is 0.49.,4A
+595e2a0f9c990ed3,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,5764c45622b8861c,Competing codes: 3A.,4A
+180a3ba1ca728827,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,47b88cc00a6bc186,Classification confidence is 0.49.,4A
+9c3bd6972b1073c8,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,47b88cc00a6bc186,Competing codes: 3A.,4A
+0870c9026d237b54,low_confidence_classification,medium,Paladion,https://misp-galaxy.org/surveillance-vendor/,cbd58e2996b50a95,Classification confidence is 0.52.,3A
+310f9f4a618067e0,multi_category_ambiguity,medium,Paladion,https://misp-galaxy.org/surveillance-vendor/,cbd58e2996b50a95,Competing codes: 4A.,3A
+f8528544e4a25d48,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,4702ec7d0f764dcd,Classification confidence is 0.55.,4A
+d1d78a2af704ccc0,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,4702ec7d0f764dcd,Competing codes: 3A.,4A
+b15a0681f6dbbf32,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,0dfccf015bc09a09,Classification confidence is 0.46.,3A
+a6616f67cdf2ed0f,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,0dfccf015bc09a09,Competing codes: 4A.,3A
+da554d256b4b0165,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,b33cb8222948bf5b,Classification confidence is 0.52.,4A
+fc18008260231066,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,b33cb8222948bf5b,Competing codes: 3A.,4A
+4119240483f72587,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,a950098eeb29c711,Classification confidence is 0.52.,4A
+f2e78a36dfcfb231,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,a950098eeb29c711,Competing codes: 3A.,4A
+547ec57757d8bef9,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,84dc56a4c6569a87,Classification confidence is 0.51.,4A
+0aee2f90de054cb3,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,84dc56a4c6569a87,"Competing codes: 3A, 2C.",4A
+a5c0ed93057fcee9,low_confidence_classification,medium,PicSix,https://misp-galaxy.org/surveillance-vendor/,a8e41e8da159c6de,Classification confidence is 0.53.,3A
+0d618232c8b5c660,multi_category_ambiguity,medium,PicSix,https://misp-galaxy.org/surveillance-vendor/,a8e41e8da159c6de,"Competing codes: 4C, 4A.",3A
+282ab6f2fc2cadfe,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,f76414d365e88694,Classification confidence is 0.56.,3A
+83a83bf7f3e05bd9,low_confidence_classification,medium,Predicio,https://misp-galaxy.org/surveillance-vendor/,37c7c85855b83129,Classification confidence is 0.51.,4C
+7937cef08ac0aaef,multi_category_ambiguity,medium,Predicio,https://misp-galaxy.org/surveillance-vendor/,37c7c85855b83129,"Competing codes: 3A, 4A.",4C
+4dcf77a26eaa07b4,low_confidence_classification,medium,PRO4SEC,https://misp-galaxy.org/surveillance-vendor/,06a41764cf535e8e,Classification confidence is 0.51.,3A
+eab73674f457498d,multi_category_ambiguity,medium,PRO4SEC,https://misp-galaxy.org/surveillance-vendor/,06a41764cf535e8e,Competing codes: 4A.,3A
+23b63692af4c66c6,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,43c4422a0315544f,Classification confidence is 0.54.,4A
+5cbd35b8c07a63d3,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,43c4422a0315544f,"Competing codes: 3A, 4C.",4A
+77624b83eeb3e06f,low_confidence_classification,medium,Qosmos,https://misp-galaxy.org/surveillance-vendor/,901ec7a199468df5,Classification confidence is 0.50.,3A
+f1e8975ef5002950,multi_category_ambiguity,medium,Raviraj Technologies,https://misp-galaxy.org/surveillance-vendor/,40eb77dd88ace363,Competing codes: 4A.,3A
+614b20c3f782ac03,low_confidence_classification,medium,RedEye,https://misp-galaxy.org/surveillance-vendor/,46f3c2f5c200dced,Classification confidence is 0.53.,3A
+39b70f007804dd04,multi_category_ambiguity,medium,RedEye,https://misp-galaxy.org/surveillance-vendor/,46f3c2f5c200dced,"Competing codes: 4C, 4A.",3A
+52d01071e40626b9,low_confidence_classification,medium,Roboteam,https://misp-galaxy.org/surveillance-vendor/,ccbe2ba8b3fff52a,Classification confidence is 0.48.,3A
+bd3cd375e8b1c82d,multi_category_ambiguity,medium,Roboteam,https://misp-galaxy.org/surveillance-vendor/,ccbe2ba8b3fff52a,Competing codes: 4A.,3A
+df745b5cac1bb4d5,low_confidence_classification,medium,Robotican,https://misp-galaxy.org/surveillance-vendor/,38b9c116070bc57b,Classification confidence is 0.43.,Not included
+9b37a84b781ca576,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,3b621c8f9f37a3bb,Classification confidence is 0.51.,4A
+e232e63e80a2f843,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,3b621c8f9f37a3bb,"Competing codes: 4C, 3A.",4A
+c8d82956abdab037,low_confidence_classification,medium,Rostelecom,https://misp-galaxy.org/surveillance-vendor/,c0dd59c030cd6a6e,Classification confidence is 0.50.,3A
+0afe078d4a16b4af,multi_category_ambiguity,medium,Rostelecom,https://misp-galaxy.org/surveillance-vendor/,c0dd59c030cd6a6e,Competing codes: 4A.,3A
+b461754701d31c62,low_confidence_classification,medium,S2T Unlocking Cyberspace. S2T,https://misp-galaxy.org/surveillance-vendor/,66d906229b107f40,Classification confidence is 0.58.,3A
+c35174237404273c,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,185455e097cc5d60,Classification confidence is 0.55.,4A
+5f0ace0e0183e624,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,185455e097cc5d60,Competing codes: 3A.,4A
+d4f43b8928437b54,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,4114e9a88a35fb76,Classification confidence is 0.41.,4A
+da35efca91a86cd3,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,4114e9a88a35fb76,Competing codes: 3A.,4A
+69fbfb9ce28dc1c9,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,79cabe3e84965e59,Classification confidence is 0.57.,4A
+0695bf380baca729,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,79cabe3e84965e59,"Competing codes: 1A, 4C.",4A
+556019a719c63aee,low_confidence_classification,medium,SoundThinking,https://misp-galaxy.org/surveillance-vendor/,549045044c3db42b,Classification confidence is 0.48.,3A
+039ff8a43b19b4d2,multi_category_ambiguity,medium,SoundThinking,https://misp-galaxy.org/surveillance-vendor/,549045044c3db42b,"Competing codes: 4A, 1A.",3A
+e27308c7bdcc9ddd,low_confidence_classification,medium,Spire Solutions,https://misp-galaxy.org/surveillance-vendor/,93e65fcf4f54b30c,Classification confidence is 0.51.,3A
+ff7aa5da0e55f736,multi_category_ambiguity,medium,Spire Solutions,https://misp-galaxy.org/surveillance-vendor/,93e65fcf4f54b30c,Competing codes: 4A.,3A
+0585410bf9f121e3,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,b14411d6f6e88d5c,Classification confidence is 0.51.,4A
+2bcf145ab1f0d47f,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,b14411d6f6e88d5c,Competing codes: 3A.,4A
+d60015f4d438fb4a,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,3ea23db5c7ff5f3e,Classification confidence is 0.54.,4A
+35a3b090dd5c3f40,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,3ea23db5c7ff5f3e,Competing codes: 3A.,4A
+479f81fafa935508,low_confidence_classification,medium,SysTools,https://misp-galaxy.org/surveillance-vendor/,a5666b84a309c524,Classification confidence is 0.49.,3A
+24c9f95037e9efcb,multi_category_ambiguity,medium,SysTools,https://misp-galaxy.org/surveillance-vendor/,a5666b84a309c524,Competing codes: 4A.,3A
+1ee51b9867f94c27,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,9f4f3b83906ffdcd,Classification confidence is 0.54.,4A
+c57793d652b339c4,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,9f4f3b83906ffdcd,"Competing codes: 3A, 4C.",4A
+3a90b6f8ba528212,low_confidence_classification,medium,TechOps Specialty Vehicles. TechOps Specialty,https://misp-galaxy.org/surveillance-vendor/,2eb49a785100edef,Classification confidence is 0.52.,3A
+5237ac9399bb2c8e,multi_category_ambiguity,medium,TechOps Specialty Vehicles. TechOps Specialty,https://misp-galaxy.org/surveillance-vendor/,2eb49a785100edef,Competing codes: 4A.,3A
+8aa9c85bd099ccb7,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,2436b513d3baa773,Classification confidence is 0.55.,4A
+3fd0b96f13d78651,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,2436b513d3baa773,Competing codes: 3A.,4A
+a51201b66ceebabe,low_confidence_classification,medium,Habsora,https://misp-galaxy.org/surveillance-vendor/,8e205caba55f393f,Classification confidence is 0.36.,4C
+73ce7b8a4c87ff57,multi_category_ambiguity,medium,Habsora,https://misp-galaxy.org/surveillance-vendor/,8e205caba55f393f,"Competing codes: 4A, 3A.",4C
+5c8e0b11096685c3,low_confidence_classification,medium,TruePosition,https://misp-galaxy.org/surveillance-vendor/,254dd8c5a31f688f,Classification confidence is 0.53.,3A
+939f8cd774772a8a,low_confidence_classification,medium,Tykelab,https://misp-galaxy.org/surveillance-vendor/,72e453abd78773ac,Classification confidence is 0.52.,4A
+f21a262507304144,multi_category_ambiguity,medium,Tykelab,https://misp-galaxy.org/surveillance-vendor/,72e453abd78773ac,Competing codes: 3A.,4A
+96692d1453d81361,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,24622fa1bb9e3c26,Competing codes: 3A.,4A
+a6b7dfac3e46f95d,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,c84b400da48ffc69,Classification confidence is 0.53.,4A
+96b33571954e244d,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,c84b400da48ffc69,Competing codes: 3A.,4A
+a25ee117850f5e47,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,cbad93902bb20df0,Classification confidence is 0.50.,4A
+d8ad38dc08399774,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,cbad93902bb20df0,Competing codes: 3A.,4A
+ec821b9a116cbacc,low_confidence_classification,medium,Veritone,https://misp-galaxy.org/surveillance-vendor/,4d1547f8c00053fc,Classification confidence is 0.55.,3A
+438d86ed079e2a9d,multi_category_ambiguity,medium,Veritone,https://misp-galaxy.org/surveillance-vendor/,4d1547f8c00053fc,"Competing codes: 4A, 4C.",3A
+8ab8767f7b1242c0,low_confidence_classification,medium,Vetted Security Solutions. Vetted Security,https://misp-galaxy.org/surveillance-vendor/,57f534cfbc76d367,Classification confidence is 0.43.,Not included
+38c4a69ffd78c74d,low_confidence_classification,medium,Videotec,https://misp-galaxy.org/surveillance-vendor/,132b3e399fe0ad80,Classification confidence is 0.48.,3A
+3763d5c49e880b77,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,fd8086a6a106b80b,Classification confidence is 0.51.,4A
+c4a2a8014a4f1659,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,fd8086a6a106b80b,"Competing codes: 4C, 3A.",4A
+f5d3f23541b21b96,low_confidence_classification,medium,Viisights,https://misp-galaxy.org/surveillance-vendor/,8d943fd0d6d2c121,Classification confidence is 0.38.,Not included
+dcda1dd37b773607,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,8496bc611e503806,Classification confidence is 0.54.,4A
+5144ee2453e26210,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,8496bc611e503806,"Competing codes: 3A, 4C.",4A
+3078719c8258796e,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,0e091120cdf1a3c6,Classification confidence is 0.57.,4A
+91d34988a3254528,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,0e091120cdf1a3c6,Competing codes: 3A.,4A
+7a3d580b9bfb491b,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,19c2d928cc8a337a,Classification confidence is 0.56.,4A
+79d2681f12d39099,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,19c2d928cc8a337a,Competing codes: 3A.,4A
+a46f31ae251b7df5,low_confidence_classification,medium,Xtend,https://misp-galaxy.org/surveillance-vendor/,7bcdef6226278616,Classification confidence is 0.50.,4C
+1fb978d2bfcbbf18,gray_area_taxonomy,medium,Xuexi Qiangguo,https://misp-galaxy.org/surveillance-vendor/,39d43afd7e68ea9f,The assigned category is marked as gray area or incomplete in the guideline PDF.,3C
+73bd86624092f7d3,low_confidence_classification,medium,,https://misp-galaxy.org/surveillance-vendor/,3150bf487e5c40c7,Classification confidence is 0.49.,4A
+67d3f2b3bb4e3b3a,multi_category_ambiguity,medium,,https://misp-galaxy.org/surveillance-vendor/,3150bf487e5c40c7,Competing codes: 3A.,4A
+a6f03a36b51dbea6,low_confidence_classification,medium,Malicious AI,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,90754fde3fd94a02,Classification confidence is 0.58.,4A
+4b32067b3f85a902,multi_category_ambiguity,medium,Malicious AI,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,90754fde3fd94a02,"Competing codes: 3A, 2A.",4A
+d796840f71a55292,low_confidence_classification,medium,CUBE SPECIAL FEATURES Malicious AI,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,ab34f14d8b24043b,Classification confidence is 0.58.,4A
+cb420e57f7fe7ae0,multi_category_ambiguity,medium,CUBE SPECIAL FEATURES Malicious AI,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,ab34f14d8b24043b,"Competing codes: 3A, 2A.",4A
+e373a4d70c2f0b3f,low_confidence_classification,medium,Strategy Ltd,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,32df3e043f422ab0,Classification confidence is 0.58.,4A
+3ed75447170bd48e,multi_category_ambiguity,medium,Strategy Ltd,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,32df3e043f422ab0,"Competing codes: 3A, 2A.",4A
+e548bdec542ac58c,low_confidence_classification,medium,Weaponizing AI Technology,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,9630626f3c4fceaf,Classification confidence is 0.58.,4A
+9a846e15f8ad139c,multi_category_ambiguity,medium,Weaponizing AI Technology,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,9630626f3c4fceaf,"Competing codes: 3A, 2A.",4A
+9fa06d589febda04,low_confidence_classification,medium,Cybercriminals,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,58760d7e99506966,Classification confidence is 0.55.,4A
+66341fdbdb3f0ad8,multi_category_ambiguity,medium,Cybercriminals,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,58760d7e99506966,"Competing codes: 1A, 3A.",4A
+5756f7926c81c094,low_confidence_classification,medium,About SiliconANGLE Media SiliconANGLE Media,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,add8c5e225139514,Classification confidence is 0.36.,Not included
+7af3c59271416330,multi_category_ambiguity,medium,About SiliconANGLE Media SiliconANGLE Media,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,add8c5e225139514,"Competing codes: 3A, 2C.",Not included
+bbebe11f8e77e89d,low_confidence_classification,medium,,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,de4349f99b23d95d,Classification confidence is 0.52.,4A
+8ab0d3544834c286,multi_category_ambiguity,medium,,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,de4349f99b23d95d,Competing codes: 3A.,4A
+b94c5725e3364908,low_confidence_classification,medium,,https://siliconangle.com/2025/03/25/malicious-ai-tool-mentions-surge-200-across-dark-web-channels-2024/,ba59987b6dbc0835,Classification confidence is 0.50.,4A
+dfba5f631afc5525,low_confidence_classification,medium,,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,c7cf1d9cc4c03fd7,Classification confidence is 0.54.,4A
+01247199795b9a28,multi_category_ambiguity,medium,,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,c7cf1d9cc4c03fd7,Competing codes: 3A.,4A
+4ddec976f5c29c55,low_confidence_classification,medium,,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,5078e3529d068b8c,Classification confidence is 0.47.,3A
+6a93196a33066a15,multi_category_ambiguity,medium,,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,5078e3529d068b8c,Competing codes: 4A.,3A
+43b3b2452b48d0ff,low_confidence_classification,medium,,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,aeef4c5dddf38f51,Classification confidence is 0.32.,Not included
+5d4b5d7602873d8a,multi_category_ambiguity,medium,,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,aeef4c5dddf38f51,"Competing codes: 2C, 4A.",Not included
+9fa8f0296472ed36,low_confidence_classification,medium,Period,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,408e10352f43fc36,Classification confidence is 0.17.,Not included
+a9165a91c5b728c5,multi_category_ambiguity,medium,Period,https://www.yahoo.com/news/italian-police-freeze-cash-ai-191616980.html,408e10352f43fc36,"Competing codes: 2C, 4C.",Not included
+aaa74cbc51051f6d,low_confidence_classification,medium,,https://www.app.com/story/news/nation/2025/05/26/fbi-warning-ai-voice-scam-2025/83861927007/,4791e3d6128d57d6,Classification confidence is 0.58.,4A
+0da977ace1566fa2,low_confidence_classification,medium,,https://www.khou.com/article/news/local/houston-ai-voice-scam/285-136a7fc0-c40f-4149-9e09-4bede4120738,370f510671180795,Classification confidence is 0.49.,Not included
+8185315e080f5419,low_confidence_classification,medium,AI Voice Clones Let Scammers,https://www.yahoo.com/news/scammers-using-voice-clips-create-220000059.html,f8637a29ae367f3b,Classification confidence is 0.43.,Not included
+0f0b28c2046daf2f,multi_category_ambiguity,medium,AI Voice Clones Let Scammers,https://www.yahoo.com/news/scammers-using-voice-clips-create-220000059.html,f8637a29ae367f3b,Competing codes: 2A.,Not included
+a4c1a94d9a364b4d,low_confidence_classification,medium,,https://www.aol.com/news/italian-police-freeze-cash-ai-191616630.html,706f13c1a2f33027,Classification confidence is 0.52.,4A
+48572469d91fc444,multi_category_ambiguity,medium,,https://www.aol.com/news/italian-police-freeze-cash-ai-191616630.html,706f13c1a2f33027,Competing codes: 3A.,4A
+3f77d3326ce3722e,low_confidence_classification,medium,,https://www.aol.com/news/italian-police-freeze-cash-ai-191616630.html,2a2e765f83805184,Classification confidence is 0.47.,3A
+df639a9ae290a72c,multi_category_ambiguity,medium,,https://www.aol.com/news/italian-police-freeze-cash-ai-191616630.html,2a2e765f83805184,Competing codes: 4A.,3A
+eb26117daa8f2ea1,low_confidence_classification,medium,What,https://www.aol.com/news/italian-police-freeze-cash-ai-191616630.html,6baa36904ee2873e,Classification confidence is 0.34.,Not included
+9b1a77f2e7bc40a6,multi_category_ambiguity,medium,What,https://www.aol.com/news/italian-police-freeze-cash-ai-191616630.html,6baa36904ee2873e,"Competing codes: 2C, 1A.",Not included
+9b93f7ce8fadfc16,low_confidence_classification,medium,MSN,https://www.msn.com/en-us/travel/news/ai-finally-delivers-those-elusive-productivity-gains-for-cybercriminals/ar-AA1YKyCk,2880ae403571658a,Classification confidence is 0.49.,4A
+96dcf4e14e0960b0,multi_category_ambiguity,medium,MSN,https://www.msn.com/en-us/travel/news/ai-finally-delivers-those-elusive-productivity-gains-for-cybercriminals/ar-AA1YKyCk,2880ae403571658a,Competing codes: 2C.,4A
+82419126fcac3a95,low_confidence_classification,medium,AI is bringing enormous benefits...to criminals,https://www.computing.co.uk/news/2026/ai/ai-bringing-benefits-to-criminals,6970e171883ea740,Classification confidence is 0.50.,Not included
+16781b49b782eb7d,low_confidence_classification,medium,,https://time.com/7306226/ai-criminal-justice-police-courts-cops/,2705adcc1762d0f4,Classification confidence is 0.44.,Not included
+4260b5c13b2eeaf5,low_confidence_classification,medium,Xthings Unveils Xthings One,https://www.tmcnet.com/usubmit/2026/03/25/10354624.htm,a8017323f626181e,Classification confidence is 0.46.,Not included
+cf2f5becca8365eb,low_confidence_classification,medium,On-Prem Security,https://www.tmcnet.com/usubmit/2026/03/25/10354624.htm,2de99370b29fdef4,Classification confidence is 0.46.,Not included
+ab65531b899eddc3,low_confidence_classification,medium,,https://www.theguardian.com/us-news/2026/mar/15/hacked-data-homeland-security,d394a5ef8bdf5f0a,Classification confidence is 0.28.,Not included
+33efd63760c089aa,multi_category_ambiguity,medium,,https://www.theguardian.com/us-news/2026/mar/15/hacked-data-homeland-security,d394a5ef8bdf5f0a,"Competing codes: 2C, 4C.",Not included
+1ac4219773f39489,low_confidence_classification,medium,Big,https://nj1015.com/new-jersey-school-surveillance/,f16b79f7cd31540d,Classification confidence is 0.50.,Not included

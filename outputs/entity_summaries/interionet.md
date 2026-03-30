@@ -2,8 +2,8 @@
 
 - Code: 3A
 - Subgroup: Mass Surveillance Systems
-- Confidence: 0.93
-- Review status: ambiguous
+- Confidence: 0.89
+- Review status: ready_for_review
 
 ## Rationale
 

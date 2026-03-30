@@ -1,0 +1,18 @@
+# Solera
+
+- Code: 3A
+- Subgroup: Mass Surveillance Systems
+- Confidence: 0.96
+- Review status: ready_for_review
+
+## Rationale
+
+Top code 3A from combined rule, prototype, and optional model signals.
+
+## Evidence
+
+- 36a5dfe3-8885-44a6-b1b9-2bcd393f7718 https://www.solera.com/blog/2022/02/01/solera-to-acquire-leading-vehicle-intelligence-company-spireon/ ['https://www.spireon.com/'] Staqu Technologies, an Indian AI startup, provides facial recognition technology to various government agencies in India. Its tools are used by law enforcement in multiple states, including Uttar Pradesh. The company has developed Crime GPT, an advanced AI-powered platform designed to assist law enforceme
+
+## Sources
+
+- https://misp-galaxy.org/surveillance-vendor/

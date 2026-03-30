@@ -127,6 +127,8 @@ Example source manifests live in:
 
 - `data/seeds/approved_sources.example.json`
 - `data/seeds/demo_sources.json`
+- `data/seeds/high_yield_sources.json`
+- `data/seeds/continuous_sources.json`
 
 The manifest is intentionally explicit. Each entry declares what kind of source it is and which domains are allowed.
 
@@ -152,6 +154,8 @@ Supported `kind` values:
 - `rss`
 - `sitemap`
 - `article_list`
+- `bing_news_search`
+- `google_news_search`
 
 The crawler also supports `file://` URLs for offline demos and tests.
 
@@ -207,13 +211,26 @@ python3 -m src.cli export
 python3 -m src.cli run-all --sources data/seeds/demo_sources.json
 ```
 
+For a live, source-backed bootstrap run that mines the highest-yield public sources:
+
+```bash
+python3 -m src.cli run-all --fresh --sources data/seeds/high_yield_sources.json
+```
+
 ### Continuous Polling
 
 ```bash
-python3 -m src.cli watch --sources data/seeds/approved_sources.example.json --interval-seconds 3600
+python3 -m src.cli watch --sources data/seeds/continuous_sources.json --interval-seconds 3600 --fresh-first-cycle
 ```
 
 `watch` keeps polling approved sources, skips already seen URLs, rebuilds the review outputs, and writes newly discovered entities to `outputs/new_entity_records.csv`.
+
+`data/seeds/continuous_sources.json` combines:
+
+- static high-yield public sources that enumerate or document harmful systems
+- live Bing News and Google News searches for new credible reporting
+
+Search feeds try to fetch the linked article when crawling is allowed. If a publisher blocks crawling, the pipeline falls back to the feed title and description while preserving only the public report URL.
 
 ## Demo Run
 
@@ -233,12 +250,21 @@ The pipeline writes these review-ready files to `outputs/`:
 - `entity_records.jsonl`
 - `new_entity_records.csv`
 - `new_entity_records.jsonl`
+- `novel_entity_records.csv`
+- `novel_entity_records.jsonl`
+- `high_confidence_entity_records.csv`
+- `high_confidence_entity_records.jsonl`
 - `review_queue.csv`
 - `review_queue.jsonl`
 - `crawl_log.csv`
 - `entity_summaries/*.md`
 
 Intermediate artifacts are stored in `data/processed/`.
+
+Recommended handoff files:
+
+- `outputs/novel_entity_records.*` for the full novel candidate set
+- `outputs/high_confidence_entity_records.*` for the conservative, novel-only subset that is best suited for a downstream model or analyst review stage
 
 ## Classification Strategy
 
@@ -278,6 +304,8 @@ python3 -m unittest discover -s tests -v
 Current tests cover:
 
 - taxonomy parsing from the uploaded PDF
+- source-specific cleaning for the MISP surveillance vendor page
+- long-paragraph chunk splitting
 - seed CSV parsing
 - classification behavior on seed-like evidence
 - deduplication behavior

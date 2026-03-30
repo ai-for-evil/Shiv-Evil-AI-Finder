@@ -26,6 +26,7 @@ class Settings:
     relevance_threshold: float = 0.38
     classification_threshold: float = 0.46
     review_confidence_threshold: float = 0.60
+    high_confidence_threshold: float = 0.75
 
 
 def load_settings(project_root: Path | None = None) -> Settings:
@@ -56,6 +57,7 @@ def load_settings(project_root: Path | None = None) -> Settings:
         relevance_threshold=float(os.getenv("AI_EVIL_RELEVANCE_THRESHOLD", "0.38")),
         classification_threshold=float(os.getenv("AI_EVIL_CLASSIFICATION_THRESHOLD", "0.46")),
         review_confidence_threshold=float(os.getenv("AI_EVIL_REVIEW_CONFIDENCE_THRESHOLD", "0.60")),
+        high_confidence_threshold=float(os.getenv("AI_EVIL_HIGH_CONFIDENCE_THRESHOLD", "0.75")),
     )
 
 
