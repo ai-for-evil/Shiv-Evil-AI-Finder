@@ -54,6 +54,10 @@ class HybridClassifier:
                 + 0.20 * model_scores.get(code, 0.0)
             )
 
+        hard_boosts = self._hard_boosts(text)
+        for code, boost in hard_boosts.items():
+            combined[code] = combined.get(code, 0.0) + boost
+
         ordered = sorted(combined.items(), key=lambda item: item[1], reverse=True)
         top_code, top_score = ordered[0] if ordered else ("Not included", 0.0)
         second_score = ordered[1][1] if len(ordered) > 1 else 0.0
@@ -129,6 +133,7 @@ class HybridClassifier:
             ClassificationSignal(name="rules", code_scores=rule_scores, reasons=[f"{code}: {', '.join(reasons[:3])}" for code, reasons in rule_reasons.items() if reasons][:8]),
             ClassificationSignal(name="prototype", code_scores=proto_scores, reasons=[]),
             ClassificationSignal(name="model", code_scores=model_scores, reasons=[]),
+            ClassificationSignal(name="hard_boosts", code_scores=hard_boosts, reasons=[]),
         ]
         evidence = [sentence.strip() for sentence in text.split(".") if sentence.strip()][:2]
         return ClassificationResult(
@@ -142,3 +147,20 @@ class HybridClassifier:
             ambiguous_codes=ambiguous,
             gray_area=gray_area,
         )
+
+    def _hard_boosts(self, text: str) -> Dict[str, float]:
+        lowered = text.lower()
+        boosts: Dict[str, float] = {}
+        if any(phrase in lowered for phrase in ["deepfake", "nudify", "undress", "synthetic ncii", "nonconsensual", "see anyone naked"]):
+            boosts["1B"] = max(boosts.get("1B", 0.0), 0.35)
+        if any(phrase in lowered for phrase in ["facial recognition", "biometric", "surveillance vendor", "surveillance technology", "surveillance cameras", "uyghur", "monitor communications", "spyware", "remote surveillance"]):
+            boosts["3A"] = max(boosts.get("3A", 0.0), 0.35)
+        if any(phrase in lowered for phrase in ["predictive policing", "patrol boxes", "crime forecast", "hotspot policing"]):
+            boosts["3B"] = max(boosts.get("3B", 0.0), 0.35)
+        if any(phrase in lowered for phrase in ["social credit", "loyalty score", "social scoring"]):
+            boosts["3C"] = max(boosts.get("3C", 0.0), 0.35)
+        if any(phrase in lowered for phrase in ["phishing", "malware", "stealer", "ransomware", "exploit code", "dark web ai", "criminal ai"]):
+            boosts["4A"] = max(boosts.get("4A", 0.0), 0.35)
+        if any(phrase in lowered for phrase in ["dynamic pricing", "debt", "fees", "financial dependency", "profit extraction", "subscribe or pay"]):
+            boosts["2C"] = max(boosts.get("2C", 0.0), 0.25)
+        return boosts

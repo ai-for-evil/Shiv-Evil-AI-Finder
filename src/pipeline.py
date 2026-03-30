@@ -61,7 +61,7 @@ class Pipeline:
                         if incremental and item["url"] in seen_urls:
                             skipped_urls += 1
                             continue
-                        document, log = _search_item_to_document(self.settings, source, item)
+                        document, log = _fetch_or_stub_search_item(self.settings, crawler, source, item)
                         existing_by_url[item["url"]] = document.to_dict()
                         logs.append(log.to_dict())
                         new_documents += 1
@@ -277,10 +277,21 @@ def _search_item_to_document(settings: Settings, source, item: dict) -> tuple[Fe
     log = CrawlLogEntry(
         url=item["url"],
         source_name=source.name,
-        status="ok",
+        status="ok_stub",
         fetched_at=fetched_at,
         http_status=200,
         raw_path=str(raw_path),
         error="",
     )
     return document, log
+
+
+def _fetch_or_stub_search_item(settings: Settings, crawler: Crawler, source, item: dict) -> tuple[FetchedDocument, CrawlLogEntry]:
+    document, log, _body = crawler.fetch(source, item["url"])
+    if document.status == "ok":
+        if not document.title:
+            document.title = item.get("title", "")
+        if not document.publication_date:
+            document.publication_date = item.get("publication_date", "")
+        return document, log
+    return _search_item_to_document(settings, source, item)

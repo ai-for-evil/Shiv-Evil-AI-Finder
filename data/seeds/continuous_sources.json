@@ -1,0 +1,84 @@
+{
+  "sources": [
+    {
+      "name": "Deepfake Complaint PDF",
+      "kind": "url",
+      "url": "https://kernochan.law.columbia.edu/sites/kernochan.law.columbia.edu/files/content/2025%20Symposium/People%20v.%20Sol%20Ecom%20Inc%20%28Second%20Amended%20Complaint%29.pdf",
+      "source_type": "legal_complaint",
+      "allowed_domains": []
+    },
+    {
+      "name": "XBIZ Deepfake Site Lawsuit",
+      "kind": "url",
+      "url": "https://www.xbiz.com/news/283348/san-francisco-city-attorney-sues-nonconsensual-deepfake-porn-sites",
+      "source_type": "news",
+      "allowed_domains": []
+    },
+    {
+      "name": "Treasury Surveillance Firms Release",
+      "kind": "url",
+      "url": "https://home.treasury.gov/news/press-releases/jy0538",
+      "source_type": "government_report",
+      "allowed_domains": []
+    },
+    {
+      "name": "Wired Entity List",
+      "kind": "url",
+      "url": "https://www.wired.com/beyond-the-beyond/2019/10/meanwhile-ever-expanding-entities-list/",
+      "source_type": "news",
+      "allowed_domains": []
+    },
+    {
+      "name": "MISP Surveillance Vendors",
+      "kind": "url",
+      "url": "https://misp-galaxy.org/surveillance-vendor/",
+      "source_type": "research_database",
+      "allowed_domains": []
+    },
+    {
+      "name": "CNBC Palantir Predictive Policing",
+      "kind": "url",
+      "url": "https://www.cnbc.com/2018/03/15/new-orleans-ends-its-palantir-predictive-policing-program.html",
+      "source_type": "news",
+      "allowed_domains": []
+    },
+    {
+      "name": "Autonomous Discovery - Bing News",
+      "kind": "bing_news_search",
+      "url": "",
+      "source_type": "news",
+      "allowed_domains": [],
+      "limit_per_query": 12,
+      "queries": [
+        "\"malicious AI\" tool",
+        "\"criminal AI\" chatbot",
+        "\"AI phishing tool\"",
+        "\"AI scam tool\"",
+        "\"AI malware generator\"",
+        "\"voice scam\" AI",
+        "\"deepfake-as-a-service\" AI",
+        "\"nudify app\" AI",
+        "\"AI spyware\" app",
+        "\"predictive policing\" AI system",
+        "\"facial recognition\" surveillance AI platform",
+        "\"social scoring\" AI system"
+      ]
+    },
+    {
+      "name": "Autonomous Discovery - Google News",
+      "kind": "google_news_search",
+      "url": "",
+      "source_type": "news",
+      "allowed_domains": [],
+      "limit_per_query": 10,
+      "queries": [
+        "\"AI cybercrime\"",
+        "\"deepfake porn\" AI website lawsuit",
+        "\"surveillance AI\" law enforcement",
+        "\"predictive policing\" AI",
+        "\"social scoring\" AI",
+        "\"AI scam\" platform"
+      ]
+    }
+  ]
+}
